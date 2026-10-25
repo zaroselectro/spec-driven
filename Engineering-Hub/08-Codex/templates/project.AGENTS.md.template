@@ -1,0 +1,22 @@
+# Projektregeln
+
+Single-Agent ist Standard. Keine anderen Agenten starten; Multi-Agent nur durch expliziten Nutzerauftrag.
+Vor Änderungen bestehende Anforderungen und akzeptierte ADRs lesen: MANUELL-Pfade eintragen.
+Keine Architekturentscheidungen eigenmächtig ändern. Kritische Änderungen als Vorschlag vorlegen.
+
+## Verbindlich zu lesen
+Pfade relativ zum Projektstamm, auch bei Arbeit in Unterverzeichnissen:
+- engineering-standards/General/architecture-principles.md
+- engineering-standards/General/clean-code.md
+- engineering-standards/General/security-principles.md
+Nur aufgabenrelevante weitere Dateien lesen; Links sind keine automatischen Imports.
+Bei fehlenden Pflichtdateien oder widersprüchlichen Regeln den Konflikt melden und betroffene Arbeit klären.
+
+## Projektangaben — vor Nutzung ersetzen
+- Anforderungen und ADRs: MANUELL
+- Build- und Testbefehle: MANUELL
+- Freigabepunkte / Verantwortliche: MANUELL
+Ergebnisse und tatsächlich ausgeführte Prüfungen berichten.
+
+## Optional
+Eine Rolle nur bei Bedarf explizit lesen. Empfehlungen sind von MUSS-Regeln getrennt.

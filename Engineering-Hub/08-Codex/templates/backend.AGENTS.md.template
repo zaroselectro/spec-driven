@@ -1,0 +1,14 @@
+# Backend-Regeln
+
+Ergänzt die Projekt-AGENTS für backend/. Pfade unten relativ zum Projektstamm auflösen.
+MUSS bei Java-/Spring-Änderungen lesen:
+- engineering-standards/Java/java-standards.md
+- engineering-standards/Java/spring-boot-standards.md
+- engineering-standards/Java/maven-standards.md
+Bei Kafka: engineering-standards/Messaging/kafka-standards.md.
+Bei Datenbank: engineering-standards/Data/postgresql-standards.md.
+Bei REST: engineering-standards/API/rest-standards.md.
+Bei Teständerungen: engineering-standards/Testing/testing-standards.md.
+Akzeptierte Backend-ADRs und Verträge: MANUELL-Pfade eintragen.
+Prüfbefehle: MANUELL eintragen. Bestehende Architektur respektieren; fehlende Vorgaben melden.
+Optionale Rolle backend-developer nur explizit lesen; keine Agenten starten.

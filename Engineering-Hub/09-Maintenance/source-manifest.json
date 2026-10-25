@@ -1,0 +1,1125 @@
+{
+  "date": "2026-10-25",
+  "sources": [
+    {
+      "source": "foo/Engineering-Vault/00-Dashboard/Agenten-Übersicht.md",
+      "sha256": "80161b1e5107e0131ef10b4336ad25c0bc9d0bbb372f53dd64de61082b09083b",
+      "bytes": 1238
+    },
+    {
+      "source": "foo/Engineering-Vault/00-Dashboard/Home.md",
+      "sha256": "c928d0b1b7e9f49dd9cae1297050c76243c3f352a639202211c8602230efe645",
+      "bytes": 1737
+    },
+    {
+      "source": "foo/Engineering-Vault/01-Agents/backend-developer.md",
+      "sha256": "a37a325737da7b8c463e068fc0aef6ec26d8b1b9b08af77989d4775f8e91072b",
+      "bytes": 2519
+    },
+    {
+      "source": "foo/Engineering-Vault/01-Agents/devops-engineer.md",
+      "sha256": "043e976585b8be7a2945e3156c6f0b8d8972e13ff6ef118fa1a703f82052f47a",
+      "bytes": 2054
+    },
+    {
+      "source": "foo/Engineering-Vault/01-Agents/frontend-developer.md",
+      "sha256": "1a18dcd81c021f459436eb94ad675fc6bba172f1c43575561091699bd05bc058",
+      "bytes": 1930
+    },
+    {
+      "source": "foo/Engineering-Vault/01-Agents/orchestrator.md",
+      "sha256": "14bd8abfb9a35f5453f84d2feba10fb0576a8d4ebc0025785f0242e1b56b15ba",
+      "bytes": 2667
+    },
+    {
+      "source": "foo/Engineering-Vault/01-Agents/qa-engineer.md",
+      "sha256": "150eb52f8dea4867b9b0e31724310dec823901b4b57109f40cc9cca931b1a904",
+      "bytes": 1945
+    },
+    {
+      "source": "foo/Engineering-Vault/01-Agents/security-reviewer.md",
+      "sha256": "69e2b3a507d1a0f7f7b23b155891759b0b601095f6ddd4e87cddd846ab1ad795",
+      "bytes": 2025
+    },
+    {
+      "source": "foo/Engineering-Vault/01-Agents/software-architect.md",
+      "sha256": "e577f028be762f7a4272053ef3feba8cb2c806ed20a64025fed286d22277b193",
+      "bytes": 2861
+    },
+    {
+      "source": "foo/Engineering-Vault/02-Standards/General/architecture-principles.md",
+      "sha256": "93faf222d7b4369acfda6d2e4b5d97c4df0b39f747ac7f1db87e37274c211ad2",
+      "bytes": 1415
+    },
+    {
+      "source": "foo/Engineering-Vault/02-Standards/General/clean-code.md",
+      "sha256": "3301a547bb02dd28e78dd45f6329c9b8786f13d2f32d4e9a24c0b51a1ee12b04",
+      "bytes": 1046
+    },
+    {
+      "source": "foo/Engineering-Vault/02-Standards/General/security-principles.md",
+      "sha256": "fc95b82796fead8c16bbb454b178968cafc432023904ed7549788771a3fbaf41",
+      "bytes": 1344
+    },
+    {
+      "source": "foo/Engineering-Vault/02-Standards/Infrastructure/docker-standards.md",
+      "sha256": "414c2b2473305fc86051df526a3ea5981bde4e035af8c5ae526b3a55425ae976",
+      "bytes": 771
+    },
+    {
+      "source": "foo/Engineering-Vault/02-Standards/Infrastructure/kubernetes-standards.md",
+      "sha256": "6c6bfa465535e23e22099be1ed4525874d684b351c809eae1692233d4360c4fb",
+      "bytes": 825
+    },
+    {
+      "source": "foo/Engineering-Vault/02-Standards/Java/java-standards.md",
+      "sha256": "2e8b9bc05a5830ba5307f24fa6ecb02db37584a7a7341b19776f5c016a408d01",
+      "bytes": 1124
+    },
+    {
+      "source": "foo/Engineering-Vault/02-Standards/Java/spring-boot-standards.md",
+      "sha256": "1e9e3c84e7ac6234c78d4543c06e553fe15fbaeba05b2394a651c72207cc3e7f",
+      "bytes": 2623
+    },
+    {
+      "source": "foo/Engineering-Vault/02-Standards/Messaging/kafka-standards.md",
+      "sha256": "7debee5378450d6f0a37127bccdbfc4f0a325f57ab04a3403edc0fa4cb90342c",
+      "bytes": 923
+    },
+    {
+      "source": "foo/Engineering-Vault/02-Standards/README.md",
+      "sha256": "7932a6ece6fe4d839efdb4c229440ccf7d54613c9b5c5397028f3ccb0d15c48b",
+      "bytes": 730
+    },
+    {
+      "source": "foo/Engineering-Vault/02-Standards/Testing/testing-standards.md",
+      "sha256": "13e961b77cd1c1d74e0a067ee844a58d4059f2f324b5b655a3c86a7a9024df7c",
+      "bytes": 1623
+    },
+    {
+      "source": "foo/Engineering-Vault/03-Projects/README.md",
+      "sha256": "665d89bee8a1168fa65bee4970c6609a09b64fe0be6b7b18f3714b32cf7f2120",
+      "bytes": 570
+    },
+    {
+      "source": "foo/Engineering-Vault/03-Projects/_Example-Project/API/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "foo/Engineering-Vault/03-Projects/_Example-Project/Architecture/ADR/README.md",
+      "sha256": "3fa49789fcb70f084405fe5a4601f9eb5684e712d2d15c1af68189a45b646dc6",
+      "bytes": 124
+    },
+    {
+      "source": "foo/Engineering-Vault/03-Projects/_Example-Project/Architecture/arc42/README.md",
+      "sha256": "394c11933b12423ded8b92a40b0c9cfeaa847b7d3fae08959b4ce8f392162587",
+      "bytes": 140
+    },
+    {
+      "source": "foo/Engineering-Vault/03-Projects/_Example-Project/Operations/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "foo/Engineering-Vault/03-Projects/_Example-Project/README.md",
+      "sha256": "3ce2acb5cbd49245b197e3304cd4c80d9e0e49c65444f9c21070c71c92984f63",
+      "bytes": 679
+    },
+    {
+      "source": "foo/Engineering-Vault/03-Projects/_Example-Project/Requirements/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "foo/Engineering-Vault/03-Projects/_Example-Project/Tasks/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "foo/Engineering-Vault/03-Projects/_Example-Project/Testing/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "foo/Engineering-Vault/04-Workflows/agent-handover.md",
+      "sha256": "17f48f4343c0b79844cea9a4e5d2d7b553dc90d36eefc7d5bc2eac8d8e680a2c",
+      "bytes": 604
+    },
+    {
+      "source": "foo/Engineering-Vault/04-Workflows/architecture-design.md",
+      "sha256": "a7cde9b97dc9dc4448cf871573f4a09cfdf500075082695011935490920c76e8",
+      "bytes": 502
+    },
+    {
+      "source": "foo/Engineering-Vault/04-Workflows/code-review.md",
+      "sha256": "9435d9dc7d99de97063bf0567c88b91ad0ae8f82eec15d8b6adea509c70b7850",
+      "bytes": 360
+    },
+    {
+      "source": "foo/Engineering-Vault/04-Workflows/feature-development.md",
+      "sha256": "3ee51c9917b6d769d1605ae7072bcb4d915926b6f7d845a79a2574d34d1e0eb6",
+      "bytes": 342
+    },
+    {
+      "source": "foo/Engineering-Vault/04-Workflows/multi-agent-development.md",
+      "sha256": "c405b75811a559d8644c587dab7d39566511e789eaf236590f4d899ca49a27db",
+      "bytes": 1504
+    },
+    {
+      "source": "foo/Engineering-Vault/04-Workflows/single-agent-development.md",
+      "sha256": "a4cd98b0b01b008476b9dc200c233d9c730e6dfb7709c74005029853e9cacc05",
+      "bytes": 1309
+    },
+    {
+      "source": "foo/Engineering-Vault/05-Tasks/README.md",
+      "sha256": "fbade59aad26816ff11926190da83d316957fd96f0e1262966374bc5cd2f9ff9",
+      "bytes": 434
+    },
+    {
+      "source": "foo/Engineering-Vault/05-Tasks/backlog/TASK-EXAMPLE-001.md",
+      "sha256": "52cb9b9f823f22cef22331fa65a871e4a12971e688f0c5c34447dbb1e5a4b942",
+      "bytes": 807
+    },
+    {
+      "source": "foo/Engineering-Vault/05-Tasks/backlog/TASK-EXAMPLE-002.md",
+      "sha256": "38620ff429b940630b99376383f1d4c1cb5e7333bea50cb085b3b734d1a1253d",
+      "bytes": 754
+    },
+    {
+      "source": "foo/Engineering-Vault/05-Tasks/backlog/TASK-EXAMPLE-003.md",
+      "sha256": "f79aadb7f614e708cf4887d2d943f14683efba2bdc2d09a3267b36d98c6bcc3d",
+      "bytes": 766
+    },
+    {
+      "source": "foo/Engineering-Vault/06-Knowledge/Java/README.md",
+      "sha256": "72d7d551f8e50d4ec1be8e608ad652bcb355a754fe5979b5a8cf976490845f68",
+      "bytes": 49
+    },
+    {
+      "source": "foo/Engineering-Vault/06-Knowledge/Kafka/README.md",
+      "sha256": "10058d508100ecee6e3eaa01916d14b3b61198bf9fa7b5f4f969bef286c9a2c9",
+      "bytes": 50
+    },
+    {
+      "source": "foo/Engineering-Vault/06-Knowledge/Kubernetes/README.md",
+      "sha256": "7658fb6b1fd4409f3ea0b0d2ef7761c652b07d8d8b36351f9d6a77f3825baa28",
+      "bytes": 55
+    },
+    {
+      "source": "foo/Engineering-Vault/06-Knowledge/README.md",
+      "sha256": "ca102e494ebcd14a69a14cb85d90df6f2b2b32de710dda013a3edaa163e9eacc",
+      "bytes": 254
+    },
+    {
+      "source": "foo/Engineering-Vault/06-Knowledge/Software-Architecture/README.md",
+      "sha256": "b820c8a3e8068d59eada28144a11d20060c1a4a87fc54da06198b5277327c690",
+      "bytes": 66
+    },
+    {
+      "source": "foo/Engineering-Vault/06-Knowledge/Spring-Boot/README.md",
+      "sha256": "4fee127a9d5724ac6d9de9050ab59ba10aaa8c2eb7846eb645e320f012177f86",
+      "bytes": 56
+    },
+    {
+      "source": "foo/Engineering-Vault/07-Templates/README.md",
+      "sha256": "ee19114af3d7aa6ffe60e3adb9cbffb3a2b85487124492ffbc9c761e4a787602",
+      "bytes": 262
+    },
+    {
+      "source": "foo/Engineering-Vault/07-Templates/adr-template.md",
+      "sha256": "ef7f38ba3db64f0301ea0f1bc2d7518f67118a78d737c54dab6d39648e4b458c",
+      "bytes": 427
+    },
+    {
+      "source": "foo/Engineering-Vault/07-Templates/agent-template.md",
+      "sha256": "18e0fdab7f5e418e497aa7ecb7266a04496de538089b03ee7f6fab923dda2a0d",
+      "bytes": 632
+    },
+    {
+      "source": "foo/Engineering-Vault/07-Templates/feature-template.md",
+      "sha256": "088918b36f4995d8256608c33d423b790387ebf4b83f5962e80623b0ca641dfd",
+      "bytes": 242
+    },
+    {
+      "source": "foo/Engineering-Vault/07-Templates/project-template.md",
+      "sha256": "9d7ff07dd94d6ec438a36e2ae3d3e0ace6668cb769719f054f3544bbca66ee39",
+      "bytes": 475
+    },
+    {
+      "source": "foo/Engineering-Vault/07-Templates/review-template.md",
+      "sha256": "3a2b468b5a4bfa1163fab538e8274c9563341f915141d36658fe4ae807f38ccf",
+      "bytes": 453
+    },
+    {
+      "source": "foo/Engineering-Vault/07-Templates/task-template.md",
+      "sha256": "755ffc01b46d6b974887ad0826455a09aafb99be54c90836164f9ea3c066d508",
+      "bytes": 495
+    },
+    {
+      "source": "foo/Engineering-Vault/08-Codex/AGENTS.md",
+      "sha256": "136b4223e2e67fd657350669f0266eb610b6adb2ba7f682c5d6ebf1ed7b65b5e",
+      "bytes": 1450
+    },
+    {
+      "source": "foo/Engineering-Vault/08-Codex/codex-integration.md",
+      "sha256": "3c290271513c3ac9951e21cc23281179502f0d696e868d15520e42e5548fccb0",
+      "bytes": 1266
+    },
+    {
+      "source": "foo/Engineering-Vault/08-Codex/project-integration.md",
+      "sha256": "0f7d11ee2f982c00a279fce3e891682649a6ac4991d4b9b62115921706e1a765",
+      "bytes": 1264
+    },
+    {
+      "source": "foo/Engineering-Vault/08-Codex/prompt-examples.md",
+      "sha256": "cd5de1be18aa1a90f92fa955395180e27d6538bbf3f67e54352e2ffd43ffaf53",
+      "bytes": 1152
+    },
+    {
+      "source": "foo/Engineering-Vault/README.md",
+      "sha256": "ecf16114a21b0fc4dc8f802fbbcd9a8ef52760151c9d8844a0a45b5f151aa46f",
+      "bytes": 3841
+    },
+    {
+      "source": "foo/specs/README.md",
+      "sha256": "990c5282c7ba728a09433ca263a7204f38586a55b90ed1724bc42a2b81678b01",
+      "bytes": 4378
+    },
+    {
+      "source": "foo/specs/base/AGENTS.md",
+      "sha256": "4b866b29e794b6b8210070a31868860e55f709bd39f1f8e26a27939f8e46642b",
+      "bytes": 6404
+    },
+    {
+      "source": "foo/specs/base/architecture.md",
+      "sha256": "7f6ceb0ba279340c597ffc9c8ca1037ac8ab9b9108a5beae90499c0e7a44edf2",
+      "bytes": 16473
+    },
+    {
+      "source": "foo/specs/extensions/http-api.md",
+      "sha256": "0e813c4aeef105a1b8333662151de525bccc9548a71d043a27b7066861cfe1ab",
+      "bytes": 2076
+    },
+    {
+      "source": "foo/specs/extensions/persistence-jpa.md",
+      "sha256": "3bee944e2dcd00e6f2eb9b639645cc6b655e0e81874f17e98b8c804a59bde733",
+      "bytes": 4175
+    },
+    {
+      "source": "foo/specs/extensions/spring-security.md",
+      "sha256": "2f7ff52d8f6175cd7138b36c0e9c4564430c9f4e7f464a42106c18b4aaef744f",
+      "bytes": 12951
+    },
+    {
+      "source": "foo/specs/prompts/001.txt",
+      "sha256": "b600da52675acafecbef350ac8ba08d22be19d950a77ba6f1a85be9c3f8c3b70",
+      "bytes": 2565
+    },
+    {
+      "source": "foo/specs/templates/extension-spec.md",
+      "sha256": "45918fd2ea782bc8a563217943fc78776a0a20eef266d96d2d49ea4788c138f8",
+      "bytes": 1407
+    },
+    {
+      "source": "foo/specs/templates/project-spec.md",
+      "sha256": "4b80f943f2d72e9fe28a8c9171056d72debc6f020448b00dfa3826cb419d6c24",
+      "bytes": 2916
+    },
+    {
+      "source": "mimo/Engineering-Vault/00-Dashboard/Agenten-Übersicht.md",
+      "sha256": "3199c4ebf9cbfb0f4855fb6ba049627b9be152e4beca53ac219b7d43f223524c",
+      "bytes": 3228
+    },
+    {
+      "source": "mimo/Engineering-Vault/00-Dashboard/Home.md",
+      "sha256": "f5da13e8dbc47159f0fa3fec8d2081b7e702ed0eafaf88e280e10b6594291731",
+      "bytes": 4420
+    },
+    {
+      "source": "mimo/Engineering-Vault/01-Agents/backend-developer.md",
+      "sha256": "fc48caf73e0b3af584396189986e6b72dc3bf8966607923cf08d1222f9a0c3f6",
+      "bytes": 6750
+    },
+    {
+      "source": "mimo/Engineering-Vault/01-Agents/devops-engineer.md",
+      "sha256": "3aa2883ff8cee37fd4da585bfdcac1a325e98a7f7f78b8d376eb905dd7766a90",
+      "bytes": 6132
+    },
+    {
+      "source": "mimo/Engineering-Vault/01-Agents/frontend-developer.md",
+      "sha256": "ecf70b3106aa7b064285a0ea7d785019a22f66fb70e1286455fba66d6ffc02b5",
+      "bytes": 5628
+    },
+    {
+      "source": "mimo/Engineering-Vault/01-Agents/orchestrator.md",
+      "sha256": "c050a48ebaae76bdcba20a4517f5faa56602fdf2e121c32b15fd7313741f090b",
+      "bytes": 6016
+    },
+    {
+      "source": "mimo/Engineering-Vault/01-Agents/qa-engineer.md",
+      "sha256": "394177414ee2cb9e918f94acc2ce9882c21e63a7aee20faa96dd75c25426f9de",
+      "bytes": 6069
+    },
+    {
+      "source": "mimo/Engineering-Vault/01-Agents/security-reviewer.md",
+      "sha256": "263636161bd6501d8e2d82d43d5ae69ab0ead4c35cb43e0894acc7cf7ee51068",
+      "bytes": 6335
+    },
+    {
+      "source": "mimo/Engineering-Vault/01-Agents/software-architect.md",
+      "sha256": "acd07c4ab4048079fcf08ceac4b87c721571b9aad33886550369e8907459c00f",
+      "bytes": 6428
+    },
+    {
+      "source": "mimo/Engineering-Vault/02-Standards/API/rest-standards.md",
+      "sha256": "3866ec037871736575330aaf2e6e8eb485f344443256aac7f21d465d498760b6",
+      "bytes": 4983
+    },
+    {
+      "source": "mimo/Engineering-Vault/02-Standards/Data/postgresql-standards.md",
+      "sha256": "b936b218f3f1e1aac0f58706ba003a16e5f0e559deb31c7e32ed695665b20802",
+      "bytes": 5404
+    },
+    {
+      "source": "mimo/Engineering-Vault/02-Standards/Frontend/angular-typescript-standards.md",
+      "sha256": "cc1e918d1538b096c1c5a4a20eac79a3452171442dd0742d431a975bdeefe1df",
+      "bytes": 3567
+    },
+    {
+      "source": "mimo/Engineering-Vault/02-Standards/General/architecture-principles.md",
+      "sha256": "4f9360a59d172a75d649825433bc528ed79c93cd35eeacee6b44f8e72b58a530",
+      "bytes": 5532
+    },
+    {
+      "source": "mimo/Engineering-Vault/02-Standards/General/clean-code.md",
+      "sha256": "ffd522d6766fe9bc3bd358f9a31562b83e80c0dbe5f4ef36fbbc87a3ef605395",
+      "bytes": 3818
+    },
+    {
+      "source": "mimo/Engineering-Vault/02-Standards/General/security-principles.md",
+      "sha256": "91cd05c283b9ea7301e22b3c2c00511bd00eee36ec0f9bcd6ad9aac5321742f4",
+      "bytes": 5797
+    },
+    {
+      "source": "mimo/Engineering-Vault/02-Standards/Infrastructure/docker-standards.md",
+      "sha256": "1545b38f2641d00280198bf114a168ed7330808035cedbf9180b30d0f4bb35cd",
+      "bytes": 3163
+    },
+    {
+      "source": "mimo/Engineering-Vault/02-Standards/Infrastructure/kubernetes-standards.md",
+      "sha256": "1c91f7624282eedcacbdff7e3617c237520f9cbd33317ac080b1bb685624efcd",
+      "bytes": 3828
+    },
+    {
+      "source": "mimo/Engineering-Vault/02-Standards/Java/java-standards.md",
+      "sha256": "7828c80ad9b72d8944458a3522c29507a2a962fbe9130acd04b08d2fe7cff088",
+      "bytes": 4606
+    },
+    {
+      "source": "mimo/Engineering-Vault/02-Standards/Java/maven-standards.md",
+      "sha256": "64cd8d335288712b0f2dd39b427d4f68ce5bdaf992c3beb57e36ea77198022f1",
+      "bytes": 4737
+    },
+    {
+      "source": "mimo/Engineering-Vault/02-Standards/Java/spring-boot-standards.md",
+      "sha256": "4be9ed55876359443fba01bbd2f23ba896e751db6525b4f5ba6ba241fd00adda",
+      "bytes": 7711
+    },
+    {
+      "source": "mimo/Engineering-Vault/02-Standards/Messaging/kafka-standards.md",
+      "sha256": "dbaf79e91964b3eb51a2d0271d7f8a8377a10d213743e21f95041debe53ce479",
+      "bytes": 4759
+    },
+    {
+      "source": "mimo/Engineering-Vault/02-Standards/README.md",
+      "sha256": "b9ef9dfe027f8745f73fd75792a5dacf1f73a3eafd40e2473195f6e1caec8d60",
+      "bytes": 6453
+    },
+    {
+      "source": "mimo/Engineering-Vault/02-Standards/Testing/testing-standards.md",
+      "sha256": "2e6c31476a739cb6fec9f166a267ec7f830d4b9e2928f8a99adcf1a2c0cf92b9",
+      "bytes": 5656
+    },
+    {
+      "source": "mimo/Engineering-Vault/03-Projects/README.md",
+      "sha256": "258b73a04d4a9ede81fe9d935e2572df584ae061b8e7a646083a402d8274a826",
+      "bytes": 3794
+    },
+    {
+      "source": "mimo/Engineering-Vault/03-Projects/_Example-Project/API/README.md",
+      "sha256": "bf781c38bc51d7768b69adb21f0e76413fcb2863a25d6af5065efe7044db816e",
+      "bytes": 1183
+    },
+    {
+      "source": "mimo/Engineering-Vault/03-Projects/_Example-Project/Architecture/ADR/README.md",
+      "sha256": "c7249d22e6d6145dd465fd783200b7e1562e8bec66a8676baa4955c0a207c5b3",
+      "bytes": 1537
+    },
+    {
+      "source": "mimo/Engineering-Vault/03-Projects/_Example-Project/Architecture/arc42/README.md",
+      "sha256": "add1dc1f2e27033506e63b616842523d6c6ca22842f7ef35ffb4205da9db1100",
+      "bytes": 1686
+    },
+    {
+      "source": "mimo/Engineering-Vault/03-Projects/_Example-Project/Operations/README.md",
+      "sha256": "7e62f044e4460612528dcfa53db20f90e56722958b9506b63938b327c717b31c",
+      "bytes": 1363
+    },
+    {
+      "source": "mimo/Engineering-Vault/03-Projects/_Example-Project/README.md",
+      "sha256": "5eda41b28ea88085c73344fce62f46f12fb8d95a5c3484577131a89dda447bae",
+      "bytes": 2225
+    },
+    {
+      "source": "mimo/Engineering-Vault/03-Projects/_Example-Project/Requirements/README.md",
+      "sha256": "7c6342435d17c0b3a5587458268ce28f6f7c53239f5f34e39d8a13be8e853976",
+      "bytes": 1178
+    },
+    {
+      "source": "mimo/Engineering-Vault/03-Projects/_Example-Project/Tasks/README.md",
+      "sha256": "5a989b782b3222abdcc0c3af8cc702709514b08f5b484297d84cd5d54b54f46f",
+      "bytes": 1174
+    },
+    {
+      "source": "mimo/Engineering-Vault/03-Projects/_Example-Project/Testing/README.md",
+      "sha256": "f1ab6d599a1f221e06ac858459688442b4781c2733861ae238853a5be58f271f",
+      "bytes": 1414
+    },
+    {
+      "source": "mimo/Engineering-Vault/04-Workflows/agent-handover.md",
+      "sha256": "8e4686c6f9156391371b3c7dba7272ee610edabffb6915322177c36179fbb544",
+      "bytes": 3826
+    },
+    {
+      "source": "mimo/Engineering-Vault/04-Workflows/architecture-design.md",
+      "sha256": "2f5d78c356b6d3780343e288a15517f1be36f3b82e749a32c36d4a9df00e287e",
+      "bytes": 2570
+    },
+    {
+      "source": "mimo/Engineering-Vault/04-Workflows/code-review.md",
+      "sha256": "b1beaed369f61d3b197144a6db03e764ffcba600decbe5888244bde4cfabde31",
+      "bytes": 3047
+    },
+    {
+      "source": "mimo/Engineering-Vault/04-Workflows/feature-development.md",
+      "sha256": "a77d4862a1f5ca0f1f7699c1b44738aa0fb28488af9eeb9fb8c018e20502c533",
+      "bytes": 3434
+    },
+    {
+      "source": "mimo/Engineering-Vault/04-Workflows/multi-agent-development.md",
+      "sha256": "ce1e08bab71bda219273af917306893453a1a0b4ad5dc694dcaf08dceaf9e7aa",
+      "bytes": 5551
+    },
+    {
+      "source": "mimo/Engineering-Vault/04-Workflows/single-agent-development.md",
+      "sha256": "b1478a734eae1ec5fa44c3cba20f588f9fe56a34abfde005306968a0c350c06b",
+      "bytes": 6287
+    },
+    {
+      "source": "mimo/Engineering-Vault/05-Tasks/README.md",
+      "sha256": "2344324644d835f89caacd9f1a5776e9cc87e45f9740d877afc83c920a7ea355",
+      "bytes": 3287
+    },
+    {
+      "source": "mimo/Engineering-Vault/05-Tasks/backlog/DEMO-ARCH-001.md",
+      "sha256": "eb09733baba9a2d6a70d50719286352585a28943deb2cf0eac38ce8bf51d1416",
+      "bytes": 2033
+    },
+    {
+      "source": "mimo/Engineering-Vault/05-Tasks/backlog/DEMO-BE-001.md",
+      "sha256": "9bcdfe81f5edff94288d0e8d4f4e00fa46d098f1119e320d3537ab0862615454",
+      "bytes": 2023
+    },
+    {
+      "source": "mimo/Engineering-Vault/05-Tasks/backlog/DEMO-OPS-001.md",
+      "sha256": "409f8ddf5f32592c7c18ac6c19aebbc128d09408aa1c08d4b0ce4a1840ff07af",
+      "bytes": 2216
+    },
+    {
+      "source": "mimo/Engineering-Vault/05-Tasks/done/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "mimo/Engineering-Vault/05-Tasks/in-progress/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "mimo/Engineering-Vault/05-Tasks/review/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "mimo/Engineering-Vault/06-Knowledge/Java/README.md",
+      "sha256": "77f1f9feed8fcb0b9ef9ff4f01427f324cbdc4b403af726431d358bf356a8247",
+      "bytes": 2110
+    },
+    {
+      "source": "mimo/Engineering-Vault/06-Knowledge/Kafka/README.md",
+      "sha256": "3ff16ea9d291b570a99b9443e4601fed3a7fd614e1802894683812b73b83d500",
+      "bytes": 2588
+    },
+    {
+      "source": "mimo/Engineering-Vault/06-Knowledge/Kubernetes/README.md",
+      "sha256": "94f8a3e60916a6a19be59adefc1f8ec160202228627778c4db6013404af48c14",
+      "bytes": 2309
+    },
+    {
+      "source": "mimo/Engineering-Vault/06-Knowledge/README.md",
+      "sha256": "68c23518f3966bcf0a47edf65ac8e00081445a0d54859c35d354b1508bf7aa4e",
+      "bytes": 1868
+    },
+    {
+      "source": "mimo/Engineering-Vault/06-Knowledge/Software-Architecture/README.md",
+      "sha256": "6387228a7cbd73d4af2fea22d0cba8e5b33de85f9d484d078421384167ce4e7a",
+      "bytes": 2801
+    },
+    {
+      "source": "mimo/Engineering-Vault/06-Knowledge/Spring-Boot/README.md",
+      "sha256": "b7d972599ee8c000fcddeffc90138b12dcbdc421dea44bff14e968cdb4a836fa",
+      "bytes": 2479
+    },
+    {
+      "source": "mimo/Engineering-Vault/07-Templates/README.md",
+      "sha256": "e9628896962b319c821820b0493d089f6b20bb40ffbbeadab0e0323e66b8c9d9",
+      "bytes": 3354
+    },
+    {
+      "source": "mimo/Engineering-Vault/07-Templates/adr-template.md",
+      "sha256": "dedda901075f5e46d6fb933cc54a0e0f49f66b622a8411bd3162f6dea526aedb",
+      "bytes": 2373
+    },
+    {
+      "source": "mimo/Engineering-Vault/07-Templates/agent-template.md",
+      "sha256": "ecfd6ff70112bd91f7a1f73cc691abdf5dcedbe9f9b0cd63a9fd17d1abc42337",
+      "bytes": 2449
+    },
+    {
+      "source": "mimo/Engineering-Vault/07-Templates/feature-template.md",
+      "sha256": "02c967e3f2bbfb99015060f31981f4abdf722e5108235ada411d5493fbf4a831",
+      "bytes": 1901
+    },
+    {
+      "source": "mimo/Engineering-Vault/07-Templates/project-template.md",
+      "sha256": "c5e13ff0c014537e1652d65c6687fd77cbccb6a2efd2554e2aeab637747e025f",
+      "bytes": 2801
+    },
+    {
+      "source": "mimo/Engineering-Vault/07-Templates/review-template.md",
+      "sha256": "ed8372ae3e30ad7a068d67f807211d94771423e15634d44c546abf156fdd98d9",
+      "bytes": 2398
+    },
+    {
+      "source": "mimo/Engineering-Vault/07-Templates/task-template.md",
+      "sha256": "16db87dcbd060286457f234bd47c05619ffcf6ce5f64297d1cbdb57457407be8",
+      "bytes": 2223
+    },
+    {
+      "source": "mimo/Engineering-Vault/08-Codex/AGENTS.md",
+      "sha256": "5d7c82fb62fd01333aa39a225689872acd9f7238ccde0bd6ea19a4ca44458be6",
+      "bytes": 1172
+    },
+    {
+      "source": "mimo/Engineering-Vault/08-Codex/codex-integration.md",
+      "sha256": "4951a8a2aa356ad4ff2a55de87749163ff6a66bbb6d3b6d9772a4e5d139a18ef",
+      "bytes": 7284
+    },
+    {
+      "source": "mimo/Engineering-Vault/08-Codex/project-integration.md",
+      "sha256": "3e7017d2cd547575a5b978a9b78cc7f4c56df67dfc9fe3be784ea49da627a85f",
+      "bytes": 7522
+    },
+    {
+      "source": "mimo/Engineering-Vault/08-Codex/prompt-examples.md",
+      "sha256": "9add597d11b153c8d67a6907d592757b747f77081b67eb5998707b41774606c4",
+      "bytes": 5576
+    },
+    {
+      "source": "mimo/Engineering-Vault/08-Codex/templates/backend.AGENTS.md",
+      "sha256": "06299c96800b9f8c2a257f7907a2ee50e099e2e259105f4618753b9d0d6449a1",
+      "bytes": 2956
+    },
+    {
+      "source": "mimo/Engineering-Vault/08-Codex/templates/infrastructure.AGENTS.md",
+      "sha256": "b96539f4e21beb9dfb3bc228669a1ad766a8a581634d2778ddd40cb96fcba0d5",
+      "bytes": 1916
+    },
+    {
+      "source": "mimo/Engineering-Vault/08-Codex/templates/project.AGENTS.md",
+      "sha256": "c88d79e32dd1da9480ceb0a4241a3d72bfee6edb97e1176bf5a5bae08d9ac4a5",
+      "bytes": 5026
+    },
+    {
+      "source": "mimo/Engineering-Vault/09-Maintenance/creation-report.md",
+      "sha256": "7efe574b72c42f2aa5d10a4c6330c9cb800b1ce6e0621217af0d22dd70c997b1",
+      "bytes": 9263
+    },
+    {
+      "source": "mimo/Engineering-Vault/README.md",
+      "sha256": "dec27962741b2ce7cd2760904c1b82b6d97e87fed85cc52dc028d53de23ebfb4",
+      "bytes": 14596
+    },
+    {
+      "source": "mimo/specs/README.md",
+      "sha256": "990c5282c7ba728a09433ca263a7204f38586a55b90ed1724bc42a2b81678b01",
+      "bytes": 4378
+    },
+    {
+      "source": "mimo/specs/base/AGENTS.md",
+      "sha256": "4b866b29e794b6b8210070a31868860e55f709bd39f1f8e26a27939f8e46642b",
+      "bytes": 6404
+    },
+    {
+      "source": "mimo/specs/base/architecture.md",
+      "sha256": "7f6ceb0ba279340c597ffc9c8ca1037ac8ab9b9108a5beae90499c0e7a44edf2",
+      "bytes": 16473
+    },
+    {
+      "source": "mimo/specs/extensions/http-api.md",
+      "sha256": "0e813c4aeef105a1b8333662151de525bccc9548a71d043a27b7066861cfe1ab",
+      "bytes": 2076
+    },
+    {
+      "source": "mimo/specs/extensions/persistence-jpa.md",
+      "sha256": "3bee944e2dcd00e6f2eb9b639645cc6b655e0e81874f17e98b8c804a59bde733",
+      "bytes": 4175
+    },
+    {
+      "source": "mimo/specs/extensions/spring-security.md",
+      "sha256": "2f7ff52d8f6175cd7138b36c0e9c4564430c9f4e7f464a42106c18b4aaef744f",
+      "bytes": 12951
+    },
+    {
+      "source": "mimo/specs/prompts/001.txt",
+      "sha256": "b600da52675acafecbef350ac8ba08d22be19d950a77ba6f1a85be9c3f8c3b70",
+      "bytes": 2565
+    },
+    {
+      "source": "mimo/specs/templates/extension-spec.md",
+      "sha256": "45918fd2ea782bc8a563217943fc78776a0a20eef266d96d2d49ea4788c138f8",
+      "bytes": 1407
+    },
+    {
+      "source": "mimo/specs/templates/project-spec.md",
+      "sha256": "4b80f943f2d72e9fe28a8c9171056d72debc6f020448b00dfa3826cb419d6c24",
+      "bytes": 2916
+    },
+    {
+      "source": "software-engineering/.obsidian/app.json",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "bytes": 2
+    },
+    {
+      "source": "software-engineering/.obsidian/appearance.json",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "bytes": 2
+    },
+    {
+      "source": "software-engineering/.obsidian/core-plugins.json",
+      "sha256": "79985eff638a8a3f7fe2946dca1ed0872116d31028bb1498b0efb7ac4e11077b",
+      "bytes": 666
+    },
+    {
+      "source": "software-engineering/.obsidian/workspace.json",
+      "sha256": "cc81b8446bbe0d20277665fecbf6c5257c967730810f5263babed157a4b640e9",
+      "bytes": 5538
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/00-Dashboard/Agenten-Übersicht.md",
+      "sha256": "27c3486b023609c4ec2c70ee10966dc0b06039bf86ce3e04112bcbca579e13d7",
+      "bytes": 531
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/00-Dashboard/Home.md",
+      "sha256": "a07148b26f7edc43122da9ebe001b9a45105f45b3ec020ab7e0b6e3100c73fc0",
+      "bytes": 753
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/01-Agents/backend-developer.md",
+      "sha256": "7ed126c5557530173fbc355d91debd04cb91df708f1081f99fac048c037b3cc4",
+      "bytes": 2176
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/01-Agents/devops-engineer.md",
+      "sha256": "04628a1cb9a999d05bfb740fd27feeb32618abcca5f58328169a025c8f7a191c",
+      "bytes": 2079
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/01-Agents/frontend-developer.md",
+      "sha256": "20158de503cbad37485fed216744e79063212b6f05f1552aecf49e523cf4f6ea",
+      "bytes": 2011
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/01-Agents/orchestrator.md",
+      "sha256": "8b12b3d2ea39a5bd5de4171b725da43d7af0d965323470b6a9187dd094dc4e49",
+      "bytes": 2072
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/01-Agents/qa-engineer.md",
+      "sha256": "8d79296d7b710a02c872085a8dbf2807af1539776af325c39d117841fc0f9cb8",
+      "bytes": 2027
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/01-Agents/security-reviewer.md",
+      "sha256": "0c119a2be8bfb8b15c665603693936cb4221581e4966de632145ac53ec3db4db",
+      "bytes": 2136
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/01-Agents/software-architect.md",
+      "sha256": "a75fc4c27f9991efc3310a27624ae925b0cba657dfad616146f4b5d75c62c804",
+      "bytes": 2054
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/02-Standards/API/rest-standards.md",
+      "sha256": "402350e3f30a042d2bfa94a29b1f6fdfeaffd549dcf78d93e11450a3343c1729",
+      "bytes": 1014
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/02-Standards/Data/postgresql-standards.md",
+      "sha256": "9525fefe5cfc3871dfd695dfe3d1ab007c80397aff8daa803458d6b526ea04e4",
+      "bytes": 1014
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/02-Standards/Frontend/angular-typescript-standards.md",
+      "sha256": "83ec7181fe0236553ecab91e560cf1b9b1bab89bbcd2ed62af438170b331349e",
+      "bytes": 1007
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/02-Standards/General/architecture-principles.md",
+      "sha256": "e3574e11bb1b0b9094b0d8a182799971c51ffa9b5c240150a17434f61f68e0b1",
+      "bytes": 1097
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/02-Standards/General/clean-code.md",
+      "sha256": "4c789e3577e5cdd1905c67cb0cd0c5000c4590304587b042ba1dc000c94a440a",
+      "bytes": 980
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/02-Standards/General/security-principles.md",
+      "sha256": "5cf7b5ec646ddaa1adfd0ad6daf0d7a0d6ec0c1b38cd5a02341db02a55d65b7d",
+      "bytes": 1102
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/02-Standards/Infrastructure/docker-standards.md",
+      "sha256": "f1bd091d02d159775bcdc8271a75bc4ed3ce70c3c88499e652a72ad07987d66d",
+      "bytes": 981
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/02-Standards/Infrastructure/kubernetes-standards.md",
+      "sha256": "05c5e84005cbb675d642dd43def5c50666bf980449ad930d92e41b61b8ce89ae",
+      "bytes": 1098
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/02-Standards/Java/java-standards.md",
+      "sha256": "e2597107f852bda688a1863fdb196668057a86a475b28caecfd9a46ebfb4fb93",
+      "bytes": 1001
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/02-Standards/Java/maven-standards.md",
+      "sha256": "3b3e14de07f4c11a037fec14a8824311046b4a47a40033af08ec0f50c22f043c",
+      "bytes": 1048
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/02-Standards/Java/spring-boot-standards.md",
+      "sha256": "b933d99c478c4ef5d920a5e4a5b60dce4c117f25c26be6fe2058fe5d38f6ff32",
+      "bytes": 1062
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/02-Standards/Messaging/kafka-standards.md",
+      "sha256": "89bb78bc0ad7c4636f9a3ab03077c20115d9fd97daa3e63f90ebd0d78a08e465",
+      "bytes": 1260
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/02-Standards/README.md",
+      "sha256": "09c7f6f90f49c6727c1972206608dbc37bc7b33e624a036f37f8030337628d58",
+      "bytes": 991
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/02-Standards/Testing/testing-standards.md",
+      "sha256": "57119f09186749b1fd2a6547651d4c16d5a3b9679d4558214f261b2cd9f6012e",
+      "bytes": 1257
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/03-Projects/README.md",
+      "sha256": "8e708d0fd841aa50a686945c637cd3c2f69987798f8832e14f5a6281ab621d4c",
+      "bytes": 659
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/03-Projects/_Example-Project/API/README.md",
+      "sha256": "18e28d58eeb1bd07fc5b285ee4cca4bb654d299e843f53c48e624cc26ea38d9d",
+      "bytes": 199
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/03-Projects/_Example-Project/Architecture/ADR/README.md",
+      "sha256": "7722b306caf2b4fd17414f8ef47250dda95c070869b03e1cec7b4944e376b11b",
+      "bytes": 313
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/03-Projects/_Example-Project/Architecture/arc42/README.md",
+      "sha256": "8ee5a77363d0bc159efbe580f81645881fb63470786caf9c77679cc30db27f69",
+      "bytes": 390
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/03-Projects/_Example-Project/Operations/README.md",
+      "sha256": "a85c2f5c0c86a3dfb72d7e9e4ac2563f7269a028f2528cbdfa90753cb48a7a06",
+      "bytes": 218
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/03-Projects/_Example-Project/README.md",
+      "sha256": "b7bb3b186062882a9b74f74516fca8be6ba07306ae3354a02420bb15135f3489",
+      "bytes": 663
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/03-Projects/_Example-Project/Requirements/README.md",
+      "sha256": "fd5073dd433667c4282e5e09ad72acd46665e02ebe8a4dba96c3d4701714ed12",
+      "bytes": 214
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/03-Projects/_Example-Project/Tasks/README.md",
+      "sha256": "341f9103e16a81cb62133a38a93fd66a88eef95081867e4b913ad7fc81bb3bed",
+      "bytes": 166
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/03-Projects/_Example-Project/Testing/README.md",
+      "sha256": "5620375744efcb17220bf8b6623b4df2190e22bdb8b5df4aed1f7aad4f49ef89",
+      "bytes": 192
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/04-Workflows/agent-handover.md",
+      "sha256": "c3d0ecf37d650659e44f29f30ed6371514886440c5a4464ec31e210e9ae14063",
+      "bytes": 749
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/04-Workflows/architecture-design.md",
+      "sha256": "cf20912cc4bf1effdb0e7cd4e921df5fca870e5dde3969df62c98045ac1d552e",
+      "bytes": 548
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/04-Workflows/code-review.md",
+      "sha256": "2e156c7149be9987065a73d6acba0b01b0b8ba16322fd5bc73ead6685356c6d2",
+      "bytes": 576
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/04-Workflows/feature-development.md",
+      "sha256": "94b7fc75d93b3d1ecae0dfd07fb6a6b0d40b11414bc0e528a2b710595af7d033",
+      "bytes": 497
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/04-Workflows/multi-agent-development.md",
+      "sha256": "3884c10fe13d4c42d767d75a16f32854cdaf074f0d8f27846c97e5e76e2889a5",
+      "bytes": 2180
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/04-Workflows/single-agent-development.md",
+      "sha256": "bf92f47a55bec2fe11f3a090751c37b3684bbcd684d73ca9eb2968a67cf86893",
+      "bytes": 721
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/05-Tasks/README.md",
+      "sha256": "08d99b368823f4453fa3b590fcf270cb17768e5ae7ae5e882e5ac3ce45f7e0d5",
+      "bytes": 1103
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/05-Tasks/backlog/DEMO-ARCH-001.md",
+      "sha256": "aa854e6739065699020cf5baad6fa1cd043a4c9400dfa3575b1d4e3eb23f1ca2",
+      "bytes": 864
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/05-Tasks/backlog/DEMO-BE-001.md",
+      "sha256": "fa513331aa6643474ad5bc442a2a987cce4695f5477dcad645b8f060c66c5eb7",
+      "bytes": 882
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/05-Tasks/backlog/DEMO-OPS-001.md",
+      "sha256": "8045b88028ec236813ef30fd8473321d1b9c8d5d13077595c721fde4f57c093f",
+      "bytes": 876
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/06-Knowledge/Java/README.md",
+      "sha256": "74af3acb288ca1151bf1028f60677fb36c42184c4d48cc89f16c8c0b5134b269",
+      "bytes": 343
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/06-Knowledge/Kafka/README.md",
+      "sha256": "b8d5b9fc384a61d5d2382656a09f69b9043fc58d9f4bd08e4d63e8bd6bc2687c",
+      "bytes": 330
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/06-Knowledge/Kubernetes/README.md",
+      "sha256": "bfb539ffdb48a5844a6d08d1be41200af145043c064b5e379daba4b01ad8558b",
+      "bytes": 369
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/06-Knowledge/README.md",
+      "sha256": "43b45d3ae117f15d896164f3f358efeb4ba0d349205516c5a0069c278399ec75",
+      "bytes": 493
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/06-Knowledge/Software-Architecture/README.md",
+      "sha256": "4e522dd567e1eb54a9a1a1486dc61a16f9dd4d272d48ac2b3e64e994625c73b2",
+      "bytes": 351
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/06-Knowledge/Spring-Boot/README.md",
+      "sha256": "d0f98f0569848e89a148f8ee90df0972ceb475620e7d37f38bf0b13b57108c45",
+      "bytes": 325
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/07-Templates/README.md",
+      "sha256": "dbcfc367685c5ae0dace454ab5ba505a84cf7c01073d65baebf64c7cec31a112",
+      "bytes": 718
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/07-Templates/adr-template.md",
+      "sha256": "1b1cf15dda38ab7e241b35bbdb6b5d27fcaa38ddab291d22e9b0965571659bea",
+      "bytes": 1043
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/07-Templates/agent-template.md",
+      "sha256": "bda5d0bec24d1c45fb9090db712f387a11dcac947e90b5d32cada60aa5fbdfe8",
+      "bytes": 1138
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/07-Templates/feature-template.md",
+      "sha256": "52675f0036c1ed89bcb127440629280bc3f2ee80f46ffa8981e5c3b10df1b3a7",
+      "bytes": 781
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/07-Templates/project-template.md",
+      "sha256": "e59c8809aac029fc8ee4a4bc20f29b4d0420df18d088e555b6c83ed1b5430001",
+      "bytes": 988
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/07-Templates/review-template.md",
+      "sha256": "0881e2b4182f28730222890abd427835a9880029a9a9ee5d3324fd47c2a37d17",
+      "bytes": 752
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/07-Templates/task-template.md",
+      "sha256": "ef1b6cb6c61a214daac1220854ee7f877f59da2bf672115aa6461e5a5aebc497",
+      "bytes": 831
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/08-Codex/AGENTS.md",
+      "sha256": "c38a6c9cf7c2a8c64499712760bd40e59227c6a3a537086425450d1913c733d4",
+      "bytes": 585
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/08-Codex/codex-integration.md",
+      "sha256": "70a698db99953b53723cac185391199be375faa1e5469600dbd4602131c6cb0a",
+      "bytes": 1980
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/08-Codex/project-integration.md",
+      "sha256": "80f2918f51647c77d3aed31905932b7af0b8dfd7a03d501489c8a3efcbce91c7",
+      "bytes": 2711
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/08-Codex/prompt-examples.md",
+      "sha256": "67e183a1d12917502a5f86cce76cdb6e9bce649a008b71464af2519f5e233925",
+      "bytes": 2305
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/08-Codex/templates/backend.AGENTS.md.template",
+      "sha256": "69630a299457fefaa6b8116664ef2584d6fd5d781ff9e11fcbef01da25e3d2e9",
+      "bytes": 795
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/08-Codex/templates/infrastructure.AGENTS.md.template",
+      "sha256": "f67805aa7f23a8e2562e3e94d5facac893d8e124ff7f081415f65a7b86a23e25",
+      "bytes": 690
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/08-Codex/templates/project.AGENTS.md.template",
+      "sha256": "60e40e76570e5903148fdd54f0f8fca1428ad8f858a493a37e31fc86e98c6f5b",
+      "bytes": 1089
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/09-Maintenance/creation-report.md",
+      "sha256": "3f5242eda45ad9e1557d90df29761356cd760e6bf76376a8ddcc4f5b322b30ab",
+      "bytes": 6458
+    },
+    {
+      "source": "software-engineering/Engineering-Vault/README.md",
+      "sha256": "23b79733b9fee9fa9e091907591ded6212f400643d904f51c6a66db581667b73",
+      "bytes": 3509
+    }
+  ],
+  "selected_origins": {
+    "README.md": "neu: konsolidierter Einstieg",
+    "01-Agents/software-architect.md": "mimo/Engineering-Vault/01-Agents/software-architect.md",
+    "01-Agents/orchestrator.md": "mimo/Engineering-Vault/01-Agents/orchestrator.md",
+    "01-Agents/security-reviewer.md": "mimo/Engineering-Vault/01-Agents/security-reviewer.md",
+    "01-Agents/backend-developer.md": "mimo/Engineering-Vault/01-Agents/backend-developer.md",
+    "01-Agents/qa-engineer.md": "mimo/Engineering-Vault/01-Agents/qa-engineer.md",
+    "01-Agents/devops-engineer.md": "mimo/Engineering-Vault/01-Agents/devops-engineer.md",
+    "01-Agents/frontend-developer.md": "mimo/Engineering-Vault/01-Agents/frontend-developer.md",
+    "05-Tasks/README.md": "mimo/Engineering-Vault/05-Tasks/README.md",
+    "05-Tasks/backlog/DEMO-ARCH-001.md": "mimo/Engineering-Vault/05-Tasks/backlog/DEMO-ARCH-001.md",
+    "05-Tasks/backlog/DEMO-BE-001.md": "mimo/Engineering-Vault/05-Tasks/backlog/DEMO-BE-001.md",
+    "05-Tasks/backlog/DEMO-OPS-001.md": "mimo/Engineering-Vault/05-Tasks/backlog/DEMO-OPS-001.md",
+    "00-Dashboard/Home.md": "mimo/Engineering-Vault/00-Dashboard/Home.md",
+    "00-Dashboard/Agenten-Übersicht.md": "mimo/Engineering-Vault/00-Dashboard/Agenten-Übersicht.md",
+    "03-Projects/README.md": "mimo/Engineering-Vault/03-Projects/README.md",
+    "03-Projects/_Example-Project/README.md": "mimo/Engineering-Vault/03-Projects/_Example-Project/README.md",
+    "03-Projects/_Example-Project/Tasks/README.md": "mimo/Engineering-Vault/03-Projects/_Example-Project/Tasks/README.md",
+    "03-Projects/_Example-Project/Requirements/README.md": "mimo/Engineering-Vault/03-Projects/_Example-Project/Requirements/README.md",
+    "03-Projects/_Example-Project/Operations/README.md": "mimo/Engineering-Vault/03-Projects/_Example-Project/Operations/README.md",
+    "03-Projects/_Example-Project/Testing/README.md": "mimo/Engineering-Vault/03-Projects/_Example-Project/Testing/README.md",
+    "03-Projects/_Example-Project/Architecture/arc42/README.md": "mimo/Engineering-Vault/03-Projects/_Example-Project/Architecture/arc42/README.md",
+    "03-Projects/_Example-Project/Architecture/ADR/README.md": "mimo/Engineering-Vault/03-Projects/_Example-Project/Architecture/ADR/README.md",
+    "03-Projects/_Example-Project/API/README.md": "mimo/Engineering-Vault/03-Projects/_Example-Project/API/README.md",
+    "06-Knowledge/README.md": "mimo/Engineering-Vault/06-Knowledge/README.md",
+    "06-Knowledge/Java/README.md": "mimo/Engineering-Vault/06-Knowledge/Java/README.md",
+    "06-Knowledge/Kafka/README.md": "mimo/Engineering-Vault/06-Knowledge/Kafka/README.md",
+    "06-Knowledge/Software-Architecture/README.md": "mimo/Engineering-Vault/06-Knowledge/Software-Architecture/README.md",
+    "06-Knowledge/Kubernetes/README.md": "mimo/Engineering-Vault/06-Knowledge/Kubernetes/README.md",
+    "06-Knowledge/Spring-Boot/README.md": "mimo/Engineering-Vault/06-Knowledge/Spring-Boot/README.md",
+    "04-Workflows/single-agent-development.md": "mimo/Engineering-Vault/04-Workflows/single-agent-development.md",
+    "04-Workflows/multi-agent-development.md": "mimo/Engineering-Vault/04-Workflows/multi-agent-development.md",
+    "04-Workflows/agent-handover.md": "mimo/Engineering-Vault/04-Workflows/agent-handover.md",
+    "04-Workflows/architecture-design.md": "mimo/Engineering-Vault/04-Workflows/architecture-design.md",
+    "04-Workflows/code-review.md": "mimo/Engineering-Vault/04-Workflows/code-review.md",
+    "04-Workflows/feature-development.md": "mimo/Engineering-Vault/04-Workflows/feature-development.md",
+    "02-Standards/README.md": "software-engineering/Engineering-Vault/02-Standards/README.md",
+    "02-Standards/Frontend/angular-typescript-standards.md": "software-engineering/Engineering-Vault/02-Standards/Frontend/angular-typescript-standards.md",
+    "02-Standards/General/clean-code.md": "software-engineering/Engineering-Vault/02-Standards/General/clean-code.md",
+    "02-Standards/General/security-principles.md": "software-engineering/Engineering-Vault/02-Standards/General/security-principles.md",
+    "02-Standards/General/architecture-principles.md": "software-engineering/Engineering-Vault/02-Standards/General/architecture-principles.md",
+    "02-Standards/Java/spring-boot-standards.md": "software-engineering/Engineering-Vault/02-Standards/Java/spring-boot-standards.md",
+    "02-Standards/Java/maven-standards.md": "software-engineering/Engineering-Vault/02-Standards/Java/maven-standards.md",
+    "02-Standards/Java/java-standards.md": "software-engineering/Engineering-Vault/02-Standards/Java/java-standards.md",
+    "02-Standards/Testing/testing-standards.md": "software-engineering/Engineering-Vault/02-Standards/Testing/testing-standards.md",
+    "02-Standards/API/rest-standards.md": "software-engineering/Engineering-Vault/02-Standards/API/rest-standards.md",
+    "02-Standards/Infrastructure/docker-standards.md": "software-engineering/Engineering-Vault/02-Standards/Infrastructure/docker-standards.md",
+    "02-Standards/Infrastructure/kubernetes-standards.md": "software-engineering/Engineering-Vault/02-Standards/Infrastructure/kubernetes-standards.md",
+    "02-Standards/Data/postgresql-standards.md": "software-engineering/Engineering-Vault/02-Standards/Data/postgresql-standards.md",
+    "02-Standards/Messaging/kafka-standards.md": "software-engineering/Engineering-Vault/02-Standards/Messaging/kafka-standards.md",
+    "07-Templates/review-template.md": "software-engineering/Engineering-Vault/07-Templates/review-template.md",
+    "07-Templates/README.md": "software-engineering/Engineering-Vault/07-Templates/README.md",
+    "07-Templates/feature-template.md": "software-engineering/Engineering-Vault/07-Templates/feature-template.md",
+    "07-Templates/agent-template.md": "software-engineering/Engineering-Vault/07-Templates/agent-template.md",
+    "07-Templates/task-template.md": "software-engineering/Engineering-Vault/07-Templates/task-template.md",
+    "07-Templates/adr-template.md": "software-engineering/Engineering-Vault/07-Templates/adr-template.md",
+    "07-Templates/project-template.md": "software-engineering/Engineering-Vault/07-Templates/project-template.md",
+    "08-Codex/project-integration.md": "software-engineering/Engineering-Vault/08-Codex/project-integration.md",
+    "08-Codex/prompt-examples.md": "software-engineering/Engineering-Vault/08-Codex/prompt-examples.md",
+    "08-Codex/AGENTS.md": "software-engineering/Engineering-Vault/08-Codex/AGENTS.md",
+    "08-Codex/codex-integration.md": "software-engineering/Engineering-Vault/08-Codex/codex-integration.md",
+    "08-Codex/templates/infrastructure.AGENTS.md.template": "software-engineering/Engineering-Vault/08-Codex/templates/infrastructure.AGENTS.md.template",
+    "08-Codex/templates/backend.AGENTS.md.template": "software-engineering/Engineering-Vault/08-Codex/templates/backend.AGENTS.md.template",
+    "08-Codex/templates/project.AGENTS.md.template": "software-engineering/Engineering-Vault/08-Codex/templates/project.AGENTS.md.template",
+    "specs/README.md": "mimo/specs/README.md",
+    "specs/extensions/persistence-jpa.md": "mimo/specs/extensions/persistence-jpa.md",
+    "specs/extensions/http-api.md": "mimo/specs/extensions/http-api.md",
+    "specs/extensions/spring-security.md": "mimo/specs/extensions/spring-security.md",
+    "specs/templates/project-spec.md": "mimo/specs/templates/project-spec.md",
+    "specs/templates/extension-spec.md": "mimo/specs/templates/extension-spec.md",
+    "specs/base/architecture.md": "mimo/specs/base/architecture.md",
+    "specs/base/AGENTS.md": "mimo/specs/base/AGENTS.md",
+    "09-Maintenance/rule-sources.md": "neu: Regelzuständigkeiten",
+    "09-Maintenance/creation-report.md": "neu: ersetzt historischen Erstellungsbericht"
+  }
+}

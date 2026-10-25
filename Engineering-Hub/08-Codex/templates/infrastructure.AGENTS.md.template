@@ -1,0 +1,9 @@
+# Infrastruktur-Regeln
+
+Ergänzt die Projekt-AGENTS für infrastructure/. Pfade relativ zum Projektstamm auflösen.
+Bei Containeränderungen MUSS engineering-standards/Infrastructure/docker-standards.md gelesen werden.
+Bei Kubernetes/Helm MUSS engineering-standards/Infrastructure/kubernetes-standards.md gelesen werden.
+Betriebsdokumentation und Prüfkommandos: MANUELL eintragen.
+Secrets extern halten. Produktive Änderungen, Löschungen und destruktive Migrationen vor Ausführung explizit freigeben lassen.
+Reviewfähige Konfiguration und Rollbackhinweise liefern; keine implizite Deploymentfreigabe.
+Optionale Rolle devops-engineer nur bei Bedarf lesen. Single-Agent bleibt Standard.
