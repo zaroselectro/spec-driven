@@ -8,6 +8,10 @@ tags: [wissen, kubernetes]
 
 Hintergrund zur Laufzeitumgebung. **Verbindlich** ist ausschließlich [[02-Standards/Infrastructure/kubernetes-standards]].
 
+## Weiterführende Specs
+
+- [[06-Knowledge/Kubernetes/kubectl-dateibenennung|Dateibenennung und Nummerierung von Kubernetes-Manifesten]]: empfohlenes Namensschema, Standardnummern pro Ressourcentyp und Umgang mit Ausführungsabhängigkeiten.
+
 ## Grundmodell in Kurzform
 
 - **Deklarativer Zustand:** Man beschreibt den gewünschten Zustand; die Steuerung bringt die realen Objekte in diesen Zustand (Reconciliation).

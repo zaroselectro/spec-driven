@@ -11,10 +11,14 @@
             "id": "8e96bb4f92ac26b1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Engineering-Hub/06-Knowledge/Kubernetes/kubectl-dateibenennung.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Neuer Tab"
+              "title": "kubectl-dateibenennung"
             }
           }
         ]
@@ -182,5 +186,8 @@
     }
   },
   "active": "8e96bb4f92ac26b1",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Engineering-Hub/06-Knowledge/Kubernetes/README.md",
+    "Engineering-Hub/06-Knowledge/Kubernetes/kubectl-dateibenennung.md"
+  ]
 }
