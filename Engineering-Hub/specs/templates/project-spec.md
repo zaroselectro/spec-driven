@@ -15,7 +15,7 @@ Diese Vorlage wird nach `specs/project.md` im Zielprojekt kopiert und konkret au
 - Vollständiger Commit-Hash: <ausfüllen>
 - Release/Tag, falls vorhanden: <optional; ersetzt nicht den Commit-Hash>
 - Übernommen am: <Datum>
-- Übernommene Dateien: <Quellpfad → Zielpfad für Basis und jede Erweiterung>
+- Übernommene Dateien: <Quellpfad → Zielpfad für Basis, jede Erweiterung und ausdrücklich eingebundene Standards>
 - Lokale Änderungen gegenüber diesem Stand: <keine oder genaue Beschreibung>
 
 Übernimm einen bewusst gewählten Stand. Uncommittete Vorlagenänderungen müssen zusätzlich zum Ausgangs-Commit exakt als mitgelieferter Patch oder als archivierter Dateistand referenziert werden. Behaupte keinen unveränderten Release-Stand für lokal geänderte Dateien.
@@ -24,7 +24,7 @@ Diese Vorlage wird nach `specs/project.md` im Zielprojekt kopiert und konkret au
 
 Keine. Zum Aktivieren diese Angabe durch eine vollständige Liste aus ID und Dateipfad ersetzen. Auch Voraussetzungen müssen ausdrücklich in dieser Liste stehen.
 
-Verfügbare Erweiterungen der Sammlung sind `http-api`, `persistence-jpa` und `spring-security`. Diese Nennung aktiviert sie nicht. Die bedingten Voraussetzungen von `spring-security` sind bei der Auswahl zu beachten. Kafka-Erweiterungen sind mögliche spätere Ergänzungen, derzeit keine mitgelieferten Erweiterungen.
+Verfügbare Erweiterungen der Sammlung sind `http-api`, `persistence-jpa`, `spring-security`, `scheduled-polling`, `prometheus-monitoring` und `docker-compose`. Diese Nennung aktiviert sie nicht. Die bedingten Voraussetzungen von `spring-security` sind bei der Auswahl zu beachten. Kafka-Erweiterungen sind mögliche spätere Ergänzungen, derzeit keine mitgelieferten Erweiterungen.
 
 ## Projektentscheidungen
 
@@ -33,6 +33,17 @@ Für jede aktive Erweiterung die dort geforderten offenen Entscheidungen festhal
 | Bereich oder Erweiterungs-ID | Entscheidung | Begründung |
 | --- | --- | --- |
 | <ausfüllen> | <ausfüllen> | <ausfüllen> |
+
+### Bedingte Entscheidungsfelder
+
+Nur für aktivierte Erweiterungen ausfüllen; diese Liste aktiviert nichts:
+
+- `persistence-jpa`: produktives System und Version, Teststrategie (H2 oder Testcontainers), externe Identitäten, Import- und Zuordnungsregeln.
+- `scheduled-polling`: Anbieterlimits, Gruppen und Deduplizierung, Zielintervall und globaler Request-Abstand, maximale Umlaufdauer, Veraltungsgrenze, Ausfallbewertung und Instanzkoordination.
+- `prometheus-monitoring`: Metrikvertrag mit Namen/Typ/Einheit/Labels, Verfügbarkeits- und Frischeregeln, Scrape-Intervall, Retention, optionale Visualisierung und Quellenhinweise.
+- `docker-compose`: Dienste, Zielbetriebssystem und Architekturen, Ports und Zugriffsnetz, Anmeldung, Secret- und Konfigurationsquellen, Volumes, Speicherbedarf und Wiederherstellung.
+
+Konkrete Intervalle und Betriebsumfänge ausschließlich hier festlegen. Technische Detailregeln verbleiben in den Erweiterungen. Geheimniswerte gehören weder in diese Datei noch ins Repository.
 
 ## Abweichungen und Konfliktauflösung
 

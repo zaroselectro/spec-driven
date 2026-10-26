@@ -16,5 +16,11 @@ Zentrale Regeln haben genau hier ihren fachlichen Ursprung. MUSS = verbindlich; 
 - [[02-Standards/Infrastructure/kubernetes-standards|Kubernetes und Helm]]
 - [[02-Standards/Frontend/angular-typescript-standards|Angular und TypeScript]]
 
+- [Zeitgesteuerte Datenerfassung](Integration/polling-standards.md)
+- [Metriken und Monitoring](Observability/monitoring-standards.md)
+- [Docker Compose](Infrastructure/compose-standards.md)
+- [Importe und externe Identitäten](Data/import-standards.md)
+- [Datenbankintegrationstests](Testing/database-test-standards.md)
+
 ## Optionale Spring-Boot-Basis
 Konkrete Regeln für ausdrücklich gewählte Spring-Boot-Projekte: [[specs/README]]. Zuständigkeiten und Konfliktbehandlung: [[09-Maintenance/rule-sources]]. Diese Basis aktiviert sich nicht automatisch.

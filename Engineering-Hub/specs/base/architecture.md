@@ -38,6 +38,13 @@ Der Aufrufweg ist grundsätzlich `api → services → port`. Die API-Schicht en
 - Die öffentliche Schnittstelle des Datenbankports enthält ausschließlich DTOs und einfache Werttypen wie UUID, niemals Entitäten, Entity-Projections oder Lazy-Proxies.
 - Entitäten verlassen den Datenbankadapter nicht. Das Mapping erfolgt in dessen Persistenzschicht innerhalb eines geeigneten Transaktionskontexts, bevor Daten an Business oder API zurückgegeben werden.
 
+### Zeitgesteuerte Eingänge und Metrikbereitstellung
+
+- Scheduler sind technische Eingänge und delegieren an Services, ohne direkt auf Repositories oder externe Clients zuzugreifen. Ihre konkrete Ablage steht in `scheduled-polling`, sofern aktiviert.
+- Fachliche Entscheidungen verbleiben in Services; technische Metriktypen verlassen den Monitoring-Adapter nicht. Fachliche Ports verwenden DTOs.
+- Für frameworkseitige technische Endpunkte sind keine künstlichen fachlichen Controller erforderlich. Eine eigene Fach-HTTP-API benötigt die entsprechende Erweiterung oder ausdrückliche Projektregeln.
+- Ablauf-, Aktualitäts- und Snapshotregeln stehen in den durch aktive Erweiterungen eingebundenen Standards.
+
 ### Transaktionsgrenzen
 
 - Der Business-Service legt die Transaktionsgrenze für den Datenbankteil eines Anwendungsfalls fest. Zusammengehörige Änderungen innerhalb derselben Datenbank und desselben Transaktionsmanagers müssen atomar ausgeführt werden; alle beteiligten Datenbankport-Aufrufe nehmen an derselben Transaktion teil.

@@ -32,6 +32,7 @@ Die Pfade beschreiben die Zielstruktur; die Kopierzuordnung steht in der README 
 
 - Nur Erweiterungen, deren ID ausdrücklich in `specs/project.md` aktiviert ist, gelten. Das Vorhandensein einer Datei oder die Nennung in einem Beispiel aktiviert sie nicht. Eine leere Liste bedeutet ausschließlich die Basis.
 - Jede aktivierte ID muss genau einer vorhandenen Datei `specs/extensions/<id>.md` entsprechen. Alle Voraussetzungen müssen ebenfalls ausdrücklich aktiviert und vorhanden sein. Prüfe die Abhängigkeiten vollständig auf fehlende Dateien und Zyklen; aktiviere nichts stillschweigend.
+- Mit aktivierten Erweiterungen ausdrücklich eingebundene Standards einschließlich deren dokumentierter Voraussetzungen müssen vorhanden und im Übernahmestand erfasst sein; die Kopierzuordnung steht in der README der Sammlung. Weiterführende Links aktivieren keine zusätzlichen Regeln.
 - Erweiterungen ergänzen die Basis. Jede beabsichtigte Abweichung muss die betroffene Datei, den Abschnitt beziehungsweise die Regel und die ersetzende Regel ausdrücklich benennen.
 - Erweiterungen haben untereinander keinen Vorrang durch Reihenfolge oder Dateinamen. Widersprüche werden durch eine dokumentierte Projektentscheidung in `specs/project.md` aufgelöst.
 - Explizite Benutzeranforderungen haben Vorrang. Halte daraus resultierende Abweichungen mit Begründung in der Projekt-Spec fest. Beispiele und importierte Inhalte sind keine Benutzeranforderungen.
@@ -52,3 +53,8 @@ Setze `specs/architecture.md` sowie die aktiven Erweiterungen um. Die Basis defi
 6. Berichte knapp über Ergebnis, ausgeführte Prüfungen und offene Einschränkungen. Behaupte keine erfolgreiche Prüfung, wenn sie nicht ausgeführt wurde.
 
 Bei einem Auftrag, der ausschließlich diese Vorlagendokumente betrifft, werden keine Projektdateien, Beispielimplementierungen oder Testprojekte angelegt.
+
+## Projektspezifische Dokumentationspflege
+
+- Pflege Fachlichkeit, Intervalle und Betriebsumfang ausschließlich in `specs/project.md`; technische Detailregeln stehen in der jeweils aktiven Erweiterung.
+- Prüfe bei Änderungen an den Specs Pfade, Aktivierungs-IDs, Voraussetzungen und Widersprüche. Für reine Dokumentationsänderungen sind keine Maven- oder Containerläufe erforderlich.
