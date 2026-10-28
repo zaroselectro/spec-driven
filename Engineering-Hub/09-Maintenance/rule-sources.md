@@ -8,6 +8,7 @@
 | `specs/extensions/` | Nur ausdrücklich aktivierte Erweiterungen mit Voraussetzungen |
 | Projektanforderungen und akzeptierte ADRs | Konkrete Fachlichkeit, Architekturentscheidungen und begründete Abweichungen |
 | `06-Knowledge/` | Hintergrundwissen ohne verbindliche Regelwirkung |
+| `10-Skills/` und `.agents/skills/` | Methoden-Katalog und operative Skill-Anleitungen; verweisen auf zuständige Standards und Projektentscheidungen |
 
 ## Auswahl und Konflikte
 Laufzeitvorgaben und ausdrückliche Nutzeraufträge beachten. Die Spring-Boot-Basis gilt nur nach bewusster Übernahme in ein Projekt. Ihr Vorhandensein im Hub aktiviert nichts. Ohne diese Auswahl bleiben beispielsweise Lombok und Liquibase Projektentscheidungen. Bei gewählter Basis gelten die dort definierten Anforderungen; Erweiterungen ausschließlich gemäß aktivierter Liste und Voraussetzungen in `../../../project.md` anwenden.

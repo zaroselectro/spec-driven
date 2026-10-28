@@ -15,6 +15,7 @@ In Obsidian „Ordner als Vault öffnen“ wählen und **Engineering-Hub** ausw�
 - [[07-Templates/README]]: manuell auszufüllende Vorlagen; optional Core-Plugin Vorlagen mit Ordner `07-Templates` verwenden.
 - [[08-Codex/project-integration]]: Projektanbindung und kurze AGENTS-Vorlagen.
 - [[specs/README]]: optionale Spring-Boot-Projektbasis mit ausdrücklich aktivierbaren Erweiterungen.
+- [[10-Skills/README]]: Methoden-Katalog, Agent-Skills und Vorlagen.
 - [[09-Maintenance/consolidation-report]]: Quellenwahl, Unterschiede und Prüfergebnis.
 
 ## Neues Projekt

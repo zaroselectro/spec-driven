@@ -185,8 +185,14 @@
       "bases:Neue Base erstellen": false
     }
   },
-  "active": "8e96bb4f92ac26b1",
+  "active": "2e705c9818cbca43",
   "lastOpenFiles": [
+    "Engineering-Hub/07-Templates/agent-skill-template.md",
+    "Engineering-Hub/07-Templates/skill-profile-template.md",
+    "Engineering-Hub/10-Skills/skill-catalog.md",
+    "Engineering-Hub/10-Skills/agent-skills.md",
+    "Engineering-Hub/10-Skills/README.md",
+    "Engineering-Hub/10-Skills",
     "Engineering-Hub/06-Knowledge/Kubernetes/kubectl-dateibenennung.md",
     "Engineering-Hub/06-Knowledge/Kubernetes/README.md"
   ]

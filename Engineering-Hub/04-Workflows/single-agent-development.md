@@ -25,6 +25,10 @@ Die dauerhaft gültigen Regeln – Projekt-`AGENTS.md`, verzeichnisspezifische R
 5. **Prüfen.** Vorhandene Prüfbefehle des Projekts ausführen (Test, Linter, Build) und das Ergebnis nennen. Bei Ersteinrichtung eines Projekts auf Specs-Basis: `mvn clean package` und danach `mvn install`; Testberichte auf korrekte Zuordnung und Nicht-Doppellauf prüfen (siehe [[02-Standards/Java/maven-standards]]).
 6. **Berichten.** Knapp: Ergebnis, ausgeführte Prüfungen, offene Einschränkungen. **MUSS** Keine erfolgreiche Prüfung behaupten, die nicht ausgeführt wurde.
 
+## Wiederverwendbare Skills
+
+Bei wiederkehrenden Tätigkeiten passende Methoden aus [[10-Skills/skill-catalog]] verwenden. Verfügbare Agent-Pakete können die Tätigkeit unterstützen; sie ändern weder Auftrag noch Modus. Nur den benötigten Skill und dessen relevante Quellen lesen. Einrichtung und Aufruf: [[10-Skills/agent-skills]].
+
 ## Was automatisch mitgedacht wird
 
 - Verbindliche Regeln aus Projekt-`AGENTS.md` und den gelesenen Standards.

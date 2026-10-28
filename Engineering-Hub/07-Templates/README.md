@@ -8,5 +8,7 @@ In Obsidian das mitgelieferte Core-Plugin „Vorlagen“ aktivieren und `07-Temp
 - [[07-Templates/task-template]]
 - [[07-Templates/agent-template]]
 - [[07-Templates/review-template]]
+- [[07-Templates/skill-profile-template]]
+- [[07-Templates/agent-skill-template]]
 
 Die YAML-Werte der Vorlagen sind syntaktisch gültige Platzhalter; vor operativer Nutzung vollständig ersetzen.

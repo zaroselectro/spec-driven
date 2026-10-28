@@ -34,6 +34,10 @@ Alle acht Rollen sind eigenständig lesbare Markdown-Vorlagen unter `01-Agents/`
 - Fehlende Eingaben werden offen gemeldet, nicht still ergänzt.
 - Demonstrationsdaten (`_Example-Project`, `DEMO-*`) sind niemals reale Anforderungen.
 
+## Skills je nach Aufgabe nutzen
+
+Rollen beschreiben Verantwortung; [[10-Skills/skill-catalog|Skills]] liefern wiederverwendbare Methoden. Anforderungsanalysten können den Skill zur Anforderungsanalyse nutzen, Entwickler und Prüfer den Review-Skill. Beide arbeiten innerhalb des bestehenden Einzelmodus. Technische Nutzung: [[10-Skills/agent-skills]].
+
 ## Neue Rolle hinzufügen
 
 [[07-Templates/agent-template]] kopieren, elf Abschnitte ausfüllen, hier in die Tabelle aufnehmen und – falls sie Teil eines Teamablaufs wird – in [[04-Workflows/multi-agent-development]] einordnen. Siehe auch `README.md`, Abschnitt „Wie füge ich einen weiteren Agenten hinzu?“.

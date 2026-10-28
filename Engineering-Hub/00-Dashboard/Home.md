@@ -52,6 +52,11 @@ Startseite der Wissensbasis für Agentic Coding. Alle Links sind interne Obsidia
 - [[04-Workflows/multi-agent-development]] – optional, nur auf expliziten Auftrag
 - [[04-Workflows/architecture-design]] · [[04-Workflows/feature-development]] · [[04-Workflows/code-review]] · [[04-Workflows/agent-handover]]
 
+### Skills
+- [[10-Skills/README]] – Fähigkeiten, Methoden und Agent-Pakete
+- [[10-Skills/skill-catalog]] – Katalog mit Rollen und Ergebnissen
+- [[10-Skills/agent-skills]] – SKILL.md erstellen, nutzen und übernehmen
+
 ### Templates
 - [[07-Templates/README]] – Übersicht aller Vorlagen
 - [[07-Templates/project-template]] · [[07-Templates/feature-template]] · [[07-Templates/adr-template]] · [[07-Templates/task-template]] · [[07-Templates/agent-template]] · [[07-Templates/review-template]]

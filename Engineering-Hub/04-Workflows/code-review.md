@@ -7,6 +7,8 @@ tags: [workflow, review, qualitaet]
 
 Gilt für jede Änderung, die über eine offensichtliche Korrektur hinausgeht. Ziel: Befunde vor dem Zusammenführen, nicht danach. Der Ablauf läuft im **Single-Agent-Modus** genauso wie im Team – die prüfende Perspektive wird einfach mitgesetzt.
 
+Für einen Review-Auftrag steht das Agent-Paket `hub-code-review` zur Verfügung. Aufruf und Projektanbindung: [[10-Skills/agent-skills]].
+
 ## Voraussetzungen
 
 - Änderungsumfang steht (Diff, Aufgabe, Akzeptanzkriterien).
