@@ -7,7 +7,7 @@ Gilt bei Auswahl für einen gemeinsam gestarteten Compose-Stack. Die folgenden R
 ## Aufbau und Konfiguration
 
 - Eine gemeinsame Startdatei und einen dokumentierten Startbefehl verwenden. Alle benötigten Dienste müssen ohne zuvor installierte Fachinfrastruktur startbar sein.
-- Zielbetriebssystem, Prozessorarchitekturen und benötigte Dienste in `specs/project.md` festlegen. Eine laufende Docker-Laufzeit mit Compose ist Voraussetzung; passende Images verwenden und keine unnötige AMD64-Emulation erzwingen.
+- Zielbetriebssystem, Prozessorarchitekturen und benötigte Dienste in `../../../../project.md` festlegen. Eine laufende Docker-Laufzeit mit Compose ist Voraussetzung; passende Images verwenden und keine unnötige AMD64-Emulation erzwingen.
 - Anwendung aus dem Projekt bauen; Build-Kontext und Dateieinbindungen relativ zur Compose-Datei korrekt auflösen.
 - Image-Versionen ausdrücklich festlegen; keine ungebundenen `latest`-Tags. Konkrete Versionen bei Implementierung prüfen und Kompatibilität dokumentieren.
 - Beispielkonfiguration ohne echte Secrets liefern. Datenbank-/Grafana-Zugangsdaten extern zuführen; lokale Secret-Dateien vom Versionsmanagement ausschließen.
@@ -19,7 +19,7 @@ Gilt bei Auswahl für einen gemeinsam gestarteten Compose-Stack. Die folgenden R
 ## Daten und Betrieb
 
 - Benannte persistente Volumes für zustandsbehaftete Dienste verwenden. Gewöhnliche Neustarts oder Containerersetzung erhalten die Daten.
-- Aufbewahrung der gespeicherten Daten gemäß `specs/project.md` konfigurieren. Speicherbedarf anhand des Datenvolumens und bei Zeitreihen anhand aktiver Serien, Scrape-Intervall und Retention berücksichtigen; keine kleinere Größenbegrenzung einführen, die die zugesagte Historie unbemerkt verkürzt.
+- Aufbewahrung der gespeicherten Daten gemäß `../../../../project.md` konfigurieren. Speicherbedarf anhand des Datenvolumens und bei Zeitreihen anhand aktiver Serien, Scrape-Intervall und Retention berücksichtigen; keine kleinere Größenbegrenzung einführen, die die zugesagte Historie unbemerkt verkürzt.
 - Bereitschaftsprüfungen und begrenzte Wiederverbindungen vorsehen. Ein temporär nicht erreichbarer abhängiger Dienst darf keinen dauerhaften Startfehler verursachen.
 - Interne Dienste über Compose-Dienstnamen adressieren. Nur ausdrücklich benötigte Benutzerzugänge veröffentlichen; Datenbank, Monitoring-Speicher und Anwendungsmanagement bleiben standardmäßig intern. Zugriffsnetz und Bind-Adressen in der Projekt-Spec festlegen.
 - Den Zugriff auf Benutzeroberflächen ausdrücklich konfigurieren, etwa durch deren eigene Anmeldung mit extern gesetzten Zugangsdaten. Keine eigene Java-Benutzerverwaltung daraus ableiten.

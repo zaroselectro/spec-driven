@@ -10,7 +10,7 @@
 | `06-Knowledge/` | Hintergrundwissen ohne verbindliche Regelwirkung |
 
 ## Auswahl und Konflikte
-Laufzeitvorgaben und ausdrückliche Nutzeraufträge beachten. Die Spring-Boot-Basis gilt nur nach bewusster Übernahme in ein Projekt. Ihr Vorhandensein im Hub aktiviert nichts. Ohne diese Auswahl bleiben beispielsweise Lombok und Liquibase Projektentscheidungen. Bei gewählter Basis gelten die dort definierten Anforderungen; Erweiterungen ausschließlich gemäß aktivierter Liste und Voraussetzungen in `specs/project.md` anwenden.
+Laufzeitvorgaben und ausdrückliche Nutzeraufträge beachten. Die Spring-Boot-Basis gilt nur nach bewusster Übernahme in ein Projekt. Ihr Vorhandensein im Hub aktiviert nichts. Ohne diese Auswahl bleiben beispielsweise Lombok und Liquibase Projektentscheidungen. Bei gewählter Basis gelten die dort definierten Anforderungen; Erweiterungen ausschließlich gemäß aktivierter Liste und Voraussetzungen in `../../../project.md` anwenden.
 
 Konkretere Regeln dürfen allgemeine Vorgaben präzisieren. Bei echten Widersprüchen die betroffenen Regeln benennen und vor der betroffenen Umsetzung eine dokumentierte Entscheidung herbeiführen; keine automatische Rangfolge allein aufgrund von Dateinamen annehmen. Bereits bestätigte Entscheidungen nicht erneut abfragen. ADRs müssen Abweichung und Geltungsbereich ausdrücklich nennen.
 

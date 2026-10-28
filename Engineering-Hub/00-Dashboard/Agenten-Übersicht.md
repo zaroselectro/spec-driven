@@ -5,12 +5,13 @@ tags: [agents, uebersicht]
 
 # Agenten-Übersicht
 
-Alle sieben Rollen sind eigenständig lesbare Markdown-Vorlagen unter `01-Agents/`. Sie sind **Konfigurationsbeschreibungen, keine ausführbaren Agenten** – eine Rolle wird in einer Codex-Sitzung als Perspektive gelesen, nicht gestartet.
+Alle acht Rollen sind eigenständig lesbare Markdown-Vorlagen unter `01-Agents/`. Sie sind **Konfigurationsbeschreibungen, keine ausführbaren Agenten** – eine Rolle wird in einer Codex-Sitzung als Perspektive gelesen, nicht gestartet.
 
 ## Rollentabelle
 
 | Rolle | Kurzprofil | Hauptverantwortung | Kernstandards |
 | --- | --- | --- | --- |
+| [[01-Agents/requirements-analyst\|Anforderungsanalyst]] | klärt Ziele, Geschäftsregeln und fachlichen Bedarf | Anforderungen, Akzeptanzkriterien und offene Fragen | [[07-Templates/feature-template]], [[02-Standards/Testing/testing-standards]] |
 | [[01-Agents/orchestrator\|Orchestrator]] | zerlegt Aufgaben, verwaltet Abhängigkeiten und Status | Koordination und Zusammenführung | [[02-Standards/General/architecture-principles]], [[04-Workflows/agent-handover]] |
 | [[01-Agents/software-architect\|Software Architect]] | entwirft Architektur, bewertet Alternativen | ADRs, arc42, Komponentengrenzen | [[02-Standards/General/architecture-principles]], [[07-Templates/adr-template]] |
 | [[01-Agents/backend-developer\|Backend Developer]] | Java 21, Spring Boot 3.x, Kafka, PostgreSQL | Backend-Implementierung nach Vorgabe | `02-Standards/Java/`, [[02-Standards/Messaging/kafka-standards]], [[02-Standards/API/rest-standards]], [[02-Standards/Data/postgresql-standards]] |

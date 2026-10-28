@@ -1,6 +1,6 @@
 # Projekt-Spec: <Projektname>
 
-Diese Vorlage wird nach `specs/project.md` im Zielprojekt kopiert und konkret ausgefüllt. Platzhalter sind offene Entscheidungen und keine Implementierungsanforderungen. Bei einem ausdrücklich gewünschten freien Beispielprojekt dürfen sinnvolle Annahmen dokumentiert werden.
+Diese Vorlage wird nach `../../../../project.md` im Zielprojekt kopiert und konkret ausgefüllt. Platzhalter sind offene Entscheidungen und keine Implementierungsanforderungen. Bei einem ausdrücklich gewünschten freien Beispielprojekt dürfen sinnvolle Annahmen dokumentiert werden.
 
 ## Ziel und Fachlichkeit
 

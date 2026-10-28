@@ -4,15 +4,15 @@ ID: `docker-compose`.
 
 ## Voraussetzungen
 
-Basis-Specs; keine weiteren Erweiterungen. Der konkrete Dienstumfang wird in `specs/project.md` festgelegt; diese Erweiterung aktiviert keine Fachintegration.
+Basis-Specs; keine weiteren Erweiterungen. Der konkrete Dienstumfang wird in `../../../../project.md` festgelegt; diese Erweiterung aktiviert keine Fachintegration.
 
 ## Offene Projektentscheidungen
 
-In `specs/project.md` festlegen: Dienste, Zielhost und Architekturen, benötigte Host-Ports, Zugriffsnetz und Anmeldung, Konfigurations- und Secretquellen, Retention, Speicherbedarf und Backup-/Wiederherstellungsbedarf. Monitoring-Regeln gelten nur, wenn der entsprechende Stack gewählt ist.
+In `../../../../project.md` festlegen: Dienste, Zielhost und Architekturen, benötigte Host-Ports, Zugriffsnetz und Anmeldung, Konfigurations- und Secretquellen, Retention, Speicherbedarf und Backup-/Wiederherstellungsbedarf. Monitoring-Regeln gelten nur, wenn der entsprechende Stack gewählt ist.
 
 ## Eingebundener Standard
 
-Bei Aktivierung gelten zusätzlich die Regeln aus [compose-standards](../../02-Standards/Infrastructure/compose-standards.md) für den berührten Bereich. Die Datei muss beim Übernehmen mitgeführt werden; die Kopierzuordnung steht in der README der Sammlung. Dies aktiviert keine weitere Erweiterung. Projektentscheidungen und begründete Abweichungen stehen in `specs/project.md`.
+Bei Aktivierung gelten zusätzlich die Regeln aus [compose-standards](../../02-Standards/Infrastructure/compose-standards.md) für den berührten Bereich. Die Datei muss beim Übernehmen mitgeführt werden; die Kopierzuordnung steht in der README der Sammlung. Dies aktiviert keine weitere Erweiterung. Projektentscheidungen und begründete Abweichungen stehen in `../../../../project.md`.
 
 ## Projektanbindung und Abnahme
 

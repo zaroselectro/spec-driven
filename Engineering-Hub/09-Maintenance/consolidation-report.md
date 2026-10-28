@@ -1,6 +1,6 @@
 # Zusammenführungsbericht
 
-Stand: 2026-10-25. Neuer unabhängiger Vault `Engineering-Hub`; Originalordner bleiben unverändert.
+Stand: 2026-10-25. Neuer unabhängiger Vault `knowledge`; Originalordner bleiben unverändert.
 
 ## Auswahl
 - `mimo`: Navigation, sieben ausführliche Rollen, sechs Workflows, Projektbeispiel, Aufgaben und Wissensnotizen.

@@ -2,7 +2,7 @@
 
 ## Ziel und Begriffe
 
-Diese Datei ist die verbindliche Quelle für allgemeine Architektur, Fehlerverträge und Testregeln künftiger Projekte. Technische Grundlage, Versionsauswahl und Arbeitsablauf sind in der `AGENTS.md` definiert (in der Sammlung unter `base/`, im Zielprojekt im Projektroot). Technologiespezifische Regeln gelten ausschließlich über die in `specs/project.md` aktivierten Erweiterungen.
+Diese Datei ist die verbindliche Quelle für allgemeine Architektur, Fehlerverträge und Testregeln künftiger Projekte. Technische Grundlage, Versionsauswahl und Arbeitsablauf sind in der `AGENTS.md` definiert (in der Sammlung unter `base/`, im Zielprojekt im Projektroot). Technologiespezifische Regeln gelten ausschließlich über die in `../../../../project.md` aktivierten Erweiterungen.
 
 Ein **fachliches Modul** beziehungsweise **Submodul** ist ein zusammenhängender fachlicher Bereich als Java-Package. Separate Maven-Module werden nur bei einem konkreten Bedarf eingeführt. Die nachfolgenden Namen sind Beispiele, keine Aufforderung, genau diese Fachlichkeit zu implementieren.
 

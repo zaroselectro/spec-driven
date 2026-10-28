@@ -14,11 +14,11 @@ Basis-Specs; keine weiteren Erweiterungen. Eine fachliche HTTP-API oder Spring S
 
 ## Offene Projektentscheidungen
 
-In `specs/project.md` festlegen: Messgrößen und Einheiten, Metriknamen, Typen, begrenzte Labels und Identitäten, Datenaltergrenze, Ausfallbewertung, Scrape-Intervall, Retention sowie benötigte Dashboards und Zugriffsschutz. Grafana ist eine optionale Projektentscheidung; diese Erweiterung aktiviert weder Polling noch Docker Compose.
+In `../../../../project.md` festlegen: Messgrößen und Einheiten, Metriknamen, Typen, begrenzte Labels und Identitäten, Datenaltergrenze, Ausfallbewertung, Scrape-Intervall, Retention sowie benötigte Dashboards und Zugriffsschutz. Grafana ist eine optionale Projektentscheidung; diese Erweiterung aktiviert weder Polling noch Docker Compose.
 
 ## Eingebundener Standard
 
-Bei Aktivierung gelten zusätzlich die Regeln aus [monitoring-standards](../../02-Standards/Observability/monitoring-standards.md) für den berührten Bereich. Die Datei muss beim Übernehmen mitgeführt werden; die Kopierzuordnung steht in der README der Sammlung. Dies aktiviert keine weitere Erweiterung. Projektentscheidungen und begründete Abweichungen stehen in `specs/project.md`.
+Bei Aktivierung gelten zusätzlich die Regeln aus [monitoring-standards](../../02-Standards/Observability/monitoring-standards.md) für den berührten Bereich. Die Datei muss beim Übernehmen mitgeführt werden; die Kopierzuordnung steht in der README der Sammlung. Dies aktiviert keine weitere Erweiterung. Projektentscheidungen und begründete Abweichungen stehen in `../../../../project.md`.
 
 ## Abweichungen von der Basis
 

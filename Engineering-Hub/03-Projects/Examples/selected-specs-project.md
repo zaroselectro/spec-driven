@@ -39,7 +39,7 @@ Keine `AGENTS.md` ist für diesen manuellen Ablauf erforderlich. Vorhandene Proj
 
 ## 3. Kleine fachliche Spec schreiben
 
-Beispielinhalt für `specs/project.md` — keine reale Anforderung:
+Beispielinhalt für `../../../../project.md` — keine reale Anforderung:
 
 ```markdown
 # Catalog Service — Demonstration
@@ -69,7 +69,7 @@ Verbindliche Regeldateien und Übernahmestand: siehe selection.md.
 
 In `specs/selection.md` die drei tatsächlich kopierten Dateien aufführen, inklusive Quelle, Übernahmedatum, SHA-256 beziehungsweise überprüfbarem Versionsstand und lokalen Änderungen. Festhalten: „Nur die aufgeführten Regeldateien gelten; keine Erweiterung der Spring-Boot-Sammlung aktiviert.“ Änderungen am Hub aktualisieren die Kopien nicht automatisch.
 
-Dieses freie Auswahlmanifest gehört zu diesem manuellen Beispiel. Es ersetzt nicht die Aktivierungsliste in `specs/project.md`, falls du später zur vollständigen Spring-Boot-Basis wechselst.
+Dieses freie Auswahlmanifest gehört zu diesem manuellen Beispiel. Es ersetzt nicht die Aktivierungsliste in `../../../../project.md`, falls du später zur vollständigen Spring-Boot-Basis wechselst.
 
 ## 5. KI optional für eine einzelne Frage nutzen
 

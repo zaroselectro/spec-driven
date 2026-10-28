@@ -11,7 +11,7 @@ ID: `persistence-jpa`. Gilt ausschließlich bei ausdrücklicher Aktivierung für
 
 ## Offene Projektentscheidungen
 
-In `specs/project.md` festlegen: produktives Datenbanksystem, Datenbankanbindungen, persistierte Fachbereiche, Konfigurationsquellen und notwendige herstellerspezifische Abweichungen sowie Testdatenbankstrategie (H2 oder produktionsnahes Datenbanksystem mit Testcontainers). Für PostgreSQL wird Testcontainers empfohlen. Zugangsdaten werden extern zugeführt, nicht in Specs hinterlegt.
+In `../../../../project.md` festlegen: produktives Datenbanksystem, Datenbankanbindungen, persistierte Fachbereiche, Konfigurationsquellen und notwendige herstellerspezifische Abweichungen sowie Testdatenbankstrategie (H2 oder produktionsnahes Datenbanksystem mit Testcontainers). Für PostgreSQL wird Testcontainers empfohlen. Zugangsdaten werden extern zugeführt, nicht in Specs hinterlegt.
 
 ## Technische Regeln
 
@@ -44,11 +44,11 @@ Die allgemeinen Port-, DTO- und Transaktionsregeln der Basis gelten. Die Persist
 
 ## Eingebundener Standard
 
-Bei Aktivierung gelten zusätzlich die Regeln aus [import-standards](../../02-Standards/Data/import-standards.md) für den berührten Bereich. Die Datei muss beim Übernehmen mitgeführt werden; die Kopierzuordnung steht in der README der Sammlung. Dies aktiviert keine weitere Erweiterung. Projektentscheidungen und begründete Abweichungen stehen in `specs/project.md`.
+Bei Aktivierung gelten zusätzlich die Regeln aus [import-standards](../../02-Standards/Data/import-standards.md) für den berührten Bereich. Die Datei muss beim Übernehmen mitgeführt werden; die Kopierzuordnung steht in der README der Sammlung. Dies aktiviert keine weitere Erweiterung. Projektentscheidungen und begründete Abweichungen stehen in `../../../../project.md`.
 
 ## Eingebundener Standard
 
-Bei Aktivierung gelten zusätzlich die Regeln aus [database-test-standards](../../02-Standards/Testing/database-test-standards.md) für den berührten Bereich. Die Datei muss beim Übernehmen mitgeführt werden; die Kopierzuordnung steht in der README der Sammlung. Dies aktiviert keine weitere Erweiterung. Projektentscheidungen und begründete Abweichungen stehen in `specs/project.md`.
+Bei Aktivierung gelten zusätzlich die Regeln aus [database-test-standards](../../02-Standards/Testing/database-test-standards.md) für den berührten Bereich. Die Datei muss beim Übernehmen mitgeführt werden; die Kopierzuordnung steht in der README der Sammlung. Dies aktiviert keine weitere Erweiterung. Projektentscheidungen und begründete Abweichungen stehen in `../../../../project.md`.
 
 ## Tests
 

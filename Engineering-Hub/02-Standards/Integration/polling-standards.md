@@ -28,8 +28,8 @@ Gilt bei Auswahl für periodische externe Abfragen. Die folgenden Regeln sind ve
 ## Abfragebudget
 
 - Zielintervall und globaler Request-Abstand sind getrennte Einstellungen und Begriffe.
-- Vor Implementierung den Abfrageplan gegen die aktuellen Anbieterbedingungen prüfen. Ob längere Umläufe bei mehreren Requests akzeptabel sind, ist in `specs/project.md` festzulegen. Effektiven Plan und Datenalter anzeigen; keine Überschreitung der Limits.
-- Geplante Aktualisierungsgelegenheiten je Datensatz verfolgen. Die in `specs/project.md` festgelegte Veraltungsgrenze anwenden; auch ausgebliebene Scheduler-Läufe erkennen. Wiederholungen innerhalb eines Zyklus nicht mehrfach zählen. Ein Fehler-Backoff darf alte Werte nicht unbegrenzt aktuell halten.
+- Vor Implementierung den Abfrageplan gegen die aktuellen Anbieterbedingungen prüfen. Ob längere Umläufe bei mehreren Requests akzeptabel sind, ist in `../../../../project.md` festzulegen. Effektiven Plan und Datenalter anzeigen; keine Überschreitung der Limits.
+- Geplante Aktualisierungsgelegenheiten je Datensatz verfolgen. Die in `../../../../project.md` festgelegte Veraltungsgrenze anwenden; auch ausgebliebene Scheduler-Läufe erkennen. Wiederholungen innerhalb eines Zyklus nicht mehrfach zählen. Ein Fehler-Backoff darf alte Werte nicht unbegrenzt aktuell halten.
 
 ## Tests und Abnahme
 

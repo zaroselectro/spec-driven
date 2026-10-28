@@ -10,7 +10,7 @@ Liste benötigte Erweiterungen anhand ihrer IDs oder ausdrücklich „Keine weit
 
 ## Offene Projektentscheidungen
 
-Welche Angaben muss `specs/project.md` vor der betroffenen Implementierung enthalten? Keine projektspezifischen Werte als universelle Vorgabe vorgeben.
+Welche Angaben muss `../../../../project.md` vor der betroffenen Implementierung enthalten? Keine projektspezifischen Werte als universelle Vorgabe vorgeben.
 
 ## Technische Regeln
 

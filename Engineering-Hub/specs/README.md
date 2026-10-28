@@ -26,7 +26,7 @@ Die bisherige Vorlage aus `spring-boot/` wurde in diese Struktur überführt. Ve
 
 1. Wähle einen konkreten Commit der Sammlung und die benötigten Erweiterungen.
 2. Kopiere die Dateien einschließlich ausdrücklich eingebundener Standards gemäß Tabelle. Bei bestehenden Projekten vorhandene Regeln und lokale Änderungen zuerst abgleichen; nicht blind überschreiben.
-3. Fülle `specs/project.md` aus, insbesondere Fachlichkeit, vollständige aktive Erweiterungsliste, Voraussetzungen, Projektentscheidungen und Vorlagenstand.
+3. Fülle `../../../project.md` aus, insbesondere Fachlichkeit, vollständige aktive Erweiterungsliste, Voraussetzungen, Projektentscheidungen und Vorlagenstand.
 4. Prüfe fehlende Voraussetzungen und Konflikte gemäß `AGENTS.md`. Bloß kopierte Dateien sind nicht automatisch aktiv.
 5. Erteile anschließend den konkreten Auftrag zur Projekterstellung.
 
@@ -34,7 +34,7 @@ Die bisherige Vorlage aus `spring-boot/` wurde in diese Struktur überführt. Ve
 | --- | --- |
 | `base/AGENTS.md` | `AGENTS.md` |
 | `base/architecture.md` | `specs/architecture.md` |
-| `templates/project-spec.md` | `specs/project.md` |
+| `templates/project-spec.md` | `../../../project.md` |
 | `extensions/<id>.md` (nur ausgewählte) | `specs/extensions/<id>.md` |
 | `../02-Standards/<bereich>/<datei>.md` (explizit eingebundene, einschließlich ihrer Voraussetzungen) | `02-Standards/<bereich>/<datei>.md` |
 
@@ -69,7 +69,7 @@ Allgemeine technische Regeln werden unter `02-Standards/` gepflegt. Erweiterunge
 | `docker-compose` | `02-Standards/Infrastructure/compose-standards.md`, `02-Standards/Infrastructure/docker-standards.md` |
 | `persistence-jpa` | `02-Standards/Data/import-standards.md`, `02-Standards/Testing/database-test-standards.md` |
 
-Diese Zielpfade erhalten die relativen Links der Erweiterungen. Die ausgewählten Standards mit Quelle und Dateistand in `specs/project.md` aufführen. Weiterführende Wissens- oder Workflowverweise aktivieren keine zusätzlichen Regeln und sind keine technischen Voraussetzungen.
+Diese Zielpfade erhalten die relativen Links der Erweiterungen. Die ausgewählten Standards mit Quelle und Dateistand in `../../../project.md` aufführen. Weiterführende Wissens- oder Workflowverweise aktivieren keine zusätzlichen Regeln und sind keine technischen Voraussetzungen.
 
 ## Neue Erweiterungen hinzufügen
 
@@ -79,6 +79,6 @@ Mögliche nächste Erweiterungen sind `kafka` und `kafka-streams`. Sie sind noch
 
 ## Vorlagenstand und Aktualisierung
 
-Kopiere einen festgelegten Stand ins Projekt und dokumentiere Quelle, vollständigen Commit-Hash, gegebenenfalls Release, Datum und kopierte Dateien in `specs/project.md`. Lokale Abweichungen werden dort separat festgehalten; uncommittete Quelländerungen erfordern zusätzlich einen exakt referenzierten Patch oder archivierten Dateistand.
+Kopiere einen festgelegten Stand ins Projekt und dokumentiere Quelle, vollständigen Commit-Hash, gegebenenfalls Release, Datum und kopierte Dateien in `../../../project.md`. Lokale Abweichungen werden dort separat festgehalten; uncommittete Quelländerungen erfordern zusätzlich einen exakt referenzierten Patch oder archivierten Dateistand.
 
 Änderungen dieser Sammlung aktualisieren bestehende Projekte nicht automatisch. Vergleiche bei einem bewussten Update alten und neuen Stand, erhalte lokale Projektentscheidungen, prüfe die aktivierten Kombinationen und aktualisiere anschließend Vorlagenstand und Historie.

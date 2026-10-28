@@ -10,7 +10,7 @@ Basis-Specs; keine weiteren Erweiterungen.
 
 ## Offene Projektentscheidungen
 
-In `specs/project.md` festlegen: angebotene Operationen und Routen, Request- und Response-DTOs, Validierung, Statuscodes und Fehlerformat sowie gegebenenfalls API-Versionierung. Benötigte Authentifizierung und Autorisierung müssen durch eine aktive Erweiterung oder ausdrückliche Projektregeln festgelegt werden.
+In `../../../../project.md` festlegen: angebotene Operationen und Routen, Request- und Response-DTOs, Validierung, Statuscodes und Fehlerformat sowie gegebenenfalls API-Versionierung. Benötigte Authentifizierung und Autorisierung müssen durch eine aktive Erweiterung oder ausdrückliche Projektregeln festgelegt werden.
 
 ## Technische Regeln
 

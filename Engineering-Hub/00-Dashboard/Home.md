@@ -21,6 +21,7 @@ Startseite der Wissensbasis für Agentic Coding. Alle Links sind interne Obsidia
 
 ### Agenten
 - [[00-Dashboard/Agenten-Übersicht]] – wer macht was
+- [[01-Agents/requirements-analyst]] – Anforderungen, Geschäftsregeln, Akzeptanzkriterien
 - [[01-Agents/orchestrator]] – Koordination, Delegation, Status
 - [[01-Agents/software-architect]] – Architektur, ADRs, arc42
 - [[01-Agents/backend-developer]] – Java, Spring Boot, Kafka, PostgreSQL

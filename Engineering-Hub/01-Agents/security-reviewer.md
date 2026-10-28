@@ -36,7 +36,7 @@ Der Security Reviewer prüft Authentifizierung, Autorisierung, Secrets, Abhängi
 - Geänderter Code bzw. Review-Umfang (Diff) und betroffene Schnittstellen.
 - Projekt-`AGENTS.md`, akzeptierte ADRs zu Sicherheit und Identität.
 - [[02-Standards/General/security-principles]] sowie zutreffende Fachstandards.
-- Bei Projekten mit Specs-Basis (`specs/`): die aktive Erweiterung `specs/extensions/spring-security.md` und die Zugriffsmatrix aus `specs/project.md`.
+- Bei Projekten mit Specs-Basis (`specs/`): die aktive Erweiterung `specs/extensions/spring-security.md` und die Zugriffsmatrix aus `../../../project.md`.
 - Konfigurations- und Deployment-Unterlagen (welche Variablen, welche Berechtigungen).
 - Bisherige Befunde und offene Punkte der Aufgabe.
 

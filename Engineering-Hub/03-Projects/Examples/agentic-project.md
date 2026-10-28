@@ -23,7 +23,7 @@ Aus diesem Hub manuell oder im ausdrücklich beauftragten Vorbereitungsschritt k
 | --- | --- |
 | `specs/base/AGENTS.md` | `AGENTS.md` |
 | `specs/base/architecture.md` | `specs/architecture.md` |
-| `specs/templates/project-spec.md` | `specs/project.md` |
+| `specs/templates/project-spec.md` | `../../../../project.md` |
 | `specs/extensions/http-api.md` | `specs/extensions/http-api.md` |
 | `specs/extensions/persistence-jpa.md` | `specs/extensions/persistence-jpa.md` |
 
@@ -31,7 +31,7 @@ Die AGENTS-Datei um **Single-Agent als Standard**, konkrete Projektpfade und rel
 
 ## 3. Projekt-Spec vollständig ausfüllen
 
-In `specs/project.md` die Vorlage ersetzen, insbesondere:
+In `../../../../project.md` die Vorlage ersetzen, insbesondere:
 
 ```text
 Projekt: task-service (Demonstration)

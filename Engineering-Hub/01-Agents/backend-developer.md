@@ -38,7 +38,7 @@ Der Backend Developer implementiert Backend-Funktionalität in Java 21 mit Sprin
 - Aufgabenbeschreibung mit Akzeptanzkriterien (z. B. aus `05-Tasks/`).
 - Bestehender Code im Projekt samt vorhandener Tests und Konventionsbeispielen.
 - Zutreffende Standards: `02-Standards/Java/`, `02-Standards/API/`, `02-Standards/Messaging/`, `02-Standards/Data/`.
-- Bei Projekten mit Specs-Basis (`specs/`): `specs/project.md`, `specs/architecture.md` und die aktiven `specs/extensions/` in dieser Reihenfolge.
+- Bei Projekten mit Specs-Basis (`specs/`): `../../../project.md`, `specs/architecture.md` und die aktiven `specs/extensions/` in dieser Reihenfolge.
 
 ## 5. Verbindliche Regeln
 

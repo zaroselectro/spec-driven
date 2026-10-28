@@ -16,9 +16,9 @@ Die dauerhaft gültigen Regeln – Projekt-`AGENTS.md`, verzeichnisspezifische R
 ## Ablauf
 
 1. **Regeln sichten (schnell).** Projekt-`AGENTS.md` und Regeln des betroffenen Verzeichnisses lesen. Das ist der verbindliche Rahmen.
-   - **Auf Projekten mit Specs-Basis (`specs/`)** gilt diese Reihenfolge: zuerst `specs/project.md` (Fachlichkeit, aktive Erweiterungen, Projektentscheidungen, Vorlagenstand), danach `specs/architecture.md`, anschließend alle aktivierten `specs/extensions/<id>.md` einschließlich deren Voraussetzungen.
-   - **MUSS** Eine Erweiterung, deren ID nicht in `specs/project.md` steht, wird **nicht** angewendet – auch wenn ihre Datei existiert. Abwesende Voraussetzungen, Konflikte und unaufgelöste Entscheidungen werden vor der betroffenen Implementierung geklärt; unabhängige Arbeiten laufen weiter. Bereits getroffene Entscheidungen werden nicht erneut bestätigt.
-   - **SOLLTE** Der **Auftrag hat Vorrang** vor jeder Standardvorgabe; daraus entstehende Abweichungen werden mit Begründung in `specs/project.md` bzw. als ADR dokumentiert. Beispiele, importierte Dateien und Beispieldokumente sind **keine** zusätzlichen Arbeitsaufträge – allein ihre Existenz verpflichtet nicht.
+   - **Auf Projekten mit Specs-Basis (`specs/`)** gilt diese Reihenfolge: zuerst `../../../project.md` (Fachlichkeit, aktive Erweiterungen, Projektentscheidungen, Vorlagenstand), danach `specs/architecture.md`, anschließend alle aktivierten `specs/extensions/<id>.md` einschließlich deren Voraussetzungen.
+   - **MUSS** Eine Erweiterung, deren ID nicht in `../../../project.md` steht, wird **nicht** angewendet – auch wenn ihre Datei existiert. Abwesende Voraussetzungen, Konflikte und unaufgelöste Entscheidungen werden vor der betroffenen Implementierung geklärt; unabhängige Arbeiten laufen weiter. Bereits getroffene Entscheidungen werden nicht erneut bestätigt.
+   - **SOLLTE** Der **Auftrag hat Vorrang** vor jeder Standardvorgabe; daraus entstehende Abweichungen werden mit Begründung in `../../../project.md` bzw. als ADR dokumentiert. Beispiele, importierte Dateien und Beispieldokumente sind **keine** zusätzlichen Arbeitsaufträge – allein ihre Existenz verpflichtet nicht.
 2. **Umfang bestimmen.** Was verlangt die Aufgabe genau? Ein Satz Akzeptanzkriterien genügt bei einfachen Aufgaben.
 3. **Nur einschlägige Inhalte laden.** Entscheiden anhand der Tabelle unten. Nichts weiter öffnen.
 4. **Umsetzen.** Bei einfacher Aufgabe direkt implementieren. Keine separate Planungsphase, kein Entwurf, kein ADR, wenn keine Entscheidung ansteht. Nur Fachlichkeit bauen, die gefordert ist – keine unnötigen Datenbanken, Integrationen oder Zusatzfeatures.
@@ -56,7 +56,7 @@ Die dauerhaft gültigen Regeln – Projekt-`AGENTS.md`, verzeichnisspezifische R
 | Aufgabe | Lesen |
 | --- | --- |
 | Kleinigkeit in bekanntem Code | Projekt-`AGENTS.md`, betroffene Dateien |
-| Erstes Arbeiten an einem Projekt mit Specs-Basis | `specs/project.md` → `specs/architecture.md` → aktive `specs/extensions/` |
+| Erstes Arbeiten an einem Projekt mit Specs-Basis | `../../../project.md` → `specs/architecture.md` → aktive `specs/extensions/` |
 | Kafka-/Messaging-Änderung | zusätzlich [[02-Standards/Messaging/kafka-standards]], betroffene ADRs |
 | REST-Änderung | zusätzlich [[02-Standards/API/rest-standards]] |
 | Testaufgabe | zusätzlich [[02-Standards/Testing/testing-standards]] |

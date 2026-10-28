@@ -17,7 +17,7 @@ Gilt bei Auswahl für die Bereitstellung fachlicher Messwerte an Prometheus. Die
 
 ## Aktualität und Lebenszyklus
 
-- Die Veraltungsregel aus `specs/project.md` bestimmt die Frische und wann bisherige Messwerte zurückgezogen werden. Die Zeitgrenze richtet sich nach dem geplanten Aktualisierungsrhythmus einschließlich begrenzter Zeitreserve; Fehler und Wiederholungen dürfen sie nicht unbegrenzt verschieben.
+- Die Veraltungsregel aus `../../../../project.md` bestimmt die Frische und wann bisherige Messwerte zurückgezogen werden. Die Zeitgrenze richtet sich nach dem geplanten Aktualisierungsrhythmus einschließlich begrenzter Zeitreserve; Fehler und Wiederholungen dürfen sie nicht unbegrenzt verschieben.
 - Bei einem Transportfehler alte gültige Messwerte nur bis zum Ablauf dieser datensatzbezogenen Frist weiter ausgeben. Den Erfolgszeitpunkt nicht erneuern. Nach Fristablauf die Messwertserie nicht mehr ausgeben und die Verfügbarkeit auf 0 setzen.
 - Bei erfolgreicher Antwort ohne gültigen Messwert den betreffenden alten Messwert unmittelbar zurückziehen. Unveränderte gültige Messwerte erhalten nach erfolgreicher Prüfung einen neuen Erfolgszeitpunkt.
 - Beim Neustart bleiben aktuelle Messwerte bis zur ersten erfolgreichen Abfrage unbekannt. Historische Zeitreihen verbleiben in Prometheus; keine Wiederveröffentlichung alter Werte mit fingierter Aktualität.

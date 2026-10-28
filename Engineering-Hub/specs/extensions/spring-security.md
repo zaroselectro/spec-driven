@@ -15,7 +15,7 @@ Sie schreibt weder einen Identity Provider noch JWT, lokale Benutzerverwaltung o
 
 ## Offene Projektentscheidungen
 
-In `specs/project.md` vor der betroffenen Implementierung festlegen:
+In `../../../../project.md` vor der betroffenen Implementierung festlegen:
 
 | Entscheidung | Erforderliche Angaben |
 | --- | --- |

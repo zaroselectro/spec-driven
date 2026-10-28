@@ -35,7 +35,7 @@ Der Software Architect entwickelt und pflegt Architekturkonzepte: er definiert K
 - Anforderungen und Nicht-Ziele des Projekts (`03-Projects/<projekt>/Requirements/`).
 - Bestehende ADRs und der aktuelle arc42-Stand.
 - Zentrale Standards, die das Projekt bindend übernommen hat (Projekt-`AGENTS.md`).
-- Bei Projekten mit Specs-Basis (`specs/`): `specs/architecture.md` als verbindliche Basisarchitektur sowie die aktiven Erweiterungen und deren offene Projektentscheidungen aus `specs/project.md`.
+- Bei Projekten mit Specs-Basis (`specs/`): `specs/architecture.md` als verbindliche Basisarchitektur sowie die aktiven Erweiterungen und deren offene Projektentscheidungen aus `../../../project.md`.
 - Bei Bedarf Rückmeldung aus Implementierung, QA, Security und DevOps.
 - Auftragsumfang (was entschieden werden soll, was nicht).
 
