@@ -18,6 +18,7 @@ Gilt, wenn Struktur, Schnittstellenkonzept oder technische Alternative **entschi
 1. **Eingrenzen.** Problem, Nicht-Ziele und offene Fragen aufschreiben. Fehlende Anforderungen als Annahme kennzeichnen, nicht erfinden.
 2. **Bestand aufnehmen.** Betroffene arc42-Abschnitte und bestehende ADRs prüfen: Was ist bereits entschieden? Entscheidungen gelten weiter, bis ein neues ADR sie ersetzt.
 3. **Alternativen bewerten.** Mindestens zwei ernstzunehmende Optionen, wenn die Entscheidung Wirkung hat; Bewertungskriterien vor dem Vergleich festlegen (z. B. Betriebsaufwand, Lernkurve, Passung zur bestehenden Architektur, Risiko).
+   Betroffene [[02-Standards/General/cloud-native-standards|Cloud-native Basisstandards]] und [[02-Standards/Cloud-Design-Patterns/README|Cloud Design Patterns]] einbeziehen. Auslöser bedingter Pflichten prüfen und ihre Erfüllung festhalten; Abweichungen ausdrücklich als Ausnahme zur Freigabe vorlegen. Optionale Patterns nur für konkrete Probleme auswählen und relevante Auswahlentscheidungen begründen; keine pauschale Anwendung aller Patterns.
 4. **Empfehlung formulieren.** Mit Begründung und den Konsequenzen, die mit der Wahl kommen.
 5. **ADR entwerfen.** [[07-Templates/adr-template]], Status `vorgeschlagen`, Ablage: `03-Projects/<projekt>/Architecture/ADR/`.
 6. **Prüfung einholen.** Sicherheitsrelevante Teile durch [[01-Agents/security-reviewer]], Betriebsteile durch [[01-Agents/devops-engineer]], Machbarkeit aus Implementierung und QA. Ergebnisse ergänzen, solange der Status `vorgeschlagen` ist.

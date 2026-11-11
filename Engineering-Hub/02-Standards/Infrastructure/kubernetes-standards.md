@@ -6,8 +6,10 @@ Gilt für Änderungen am jeweiligen technischen Bereich; andere Standards nur be
 ## Verbindliche Regeln (MUSS)
 Secrets nicht als Klartext in versionierten Values speichern. RBAC auf benötigte Rechte begrenzen. Rollout und Rollback dokumentieren; produktive Änderungen explizit freigeben lassen.
 
+Die [[02-Standards/General/cloud-native-standards|Cloud-native Engineering Standards]] einhalten; sie regeln insbesondere Ressourcen, Health/Readiness, Observability und Graceful Shutdown verbindlich. Probes, Ressourcenwerte und Beendigungsfristen in den Workload-Manifesten passend zur Anwendung konfigurieren.
+
 ## Empfehlungen (SOLLTE)
-Requests/Limits, Readiness/Liveness/Startup sinnvoll unterscheiden. Strukturierte Logs, Metriken, Alarmierung und gegebenenfalls Traces vorsehen. Helm-Templates vor Deployment rendern und validieren.
+Bei langen Startphasen eine passende Startup-Probe vorsehen. Alarmierung definieren. Helm-Templates vor Deployment rendern und validieren.
 
 ## Projektentscheidungen
 Namespaces, Netzwerkrichtlinien, Chart-Versionen, Verfügbarkeit, Persistenz und Secret-Verwaltung bestimmen. Rollback von Datenmigrationen gesondert bewerten. Abweichungen begründet mit Status und Geltungsbereich in einem Projekt-ADR festhalten.

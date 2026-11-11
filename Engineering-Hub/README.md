@@ -8,6 +8,7 @@ In Obsidian „Ordner als Vault öffnen“ wählen und **Engineering-Hub** ausw�
 ## Aufbau
 - [[00-Dashboard/Home]] und [[00-Dashboard/Agenten-Übersicht]]: Einstieg und Rollen.
 - [[02-Standards/README]]: allgemeine, modulare Standards mit MUSS, SOLLTE und Projektentscheidungen.
+- [[02-Standards/General/cloud-native-standards]] und [[02-Standards/Cloud-Design-Patterns/README]]: verbindliche Basisstandards, bedingte Pattern-Pflichten und optionale Architekturpatterns.
 - [[03-Projects/README]]: Projektwissen; `_Example-Project` enthält ausschließlich Demonstrationsdaten.
 - [[04-Workflows/single-agent-development]]: Standardbetrieb mit einem Agenten. [[04-Workflows/multi-agent-development]] nur ausdrücklich aktivieren.
 - [[05-Tasks/README]]: Aufgaben, Abhängigkeiten und Reviews; Demo-Aufgaben sind keine echten Aufträge.

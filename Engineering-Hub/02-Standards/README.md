@@ -3,6 +3,8 @@
 Zentrale Regeln haben genau hier ihren fachlichen Ursprung. MUSS = verbindlich; SOLLTE = Empfehlung; Projektentscheidung = lokal festzulegen. Keine pauschale Komplettlektüre.
 
 - [[02-Standards/General/architecture-principles|Architekturprinzipien]]
+- [[02-Standards/General/cloud-native-standards|Cloud-native Engineering Standards – verbindliche Basis]]
+- [[02-Standards/Cloud-Design-Patterns/README|Cloud Design Patterns – bedingte Pflichten und optionale Architekturpatterns]]
 - [[02-Standards/General/clean-code|Clean Code]]
 - [[02-Standards/General/security-principles|Sicherheitsprinzipien]]
 - [[02-Standards/Java/java-standards|Java 21]]

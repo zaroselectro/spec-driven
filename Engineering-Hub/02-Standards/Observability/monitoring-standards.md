@@ -2,6 +2,8 @@
 
 ## Geltungsbereich
 
+Die allgemeine Pflicht zu Logs, Metriken und verteilten Traces steht in [[02-Standards/General/cloud-native-standards]]. Diese Datei ergänzt sie für ausgewähltes Prometheus-Monitoring.
+
 Gilt bei Auswahl für die Bereitstellung fachlicher Messwerte an Prometheus. Die folgenden Regeln sind verbindlich; Metrikvertrag, Fristen, Retention und optionale Visualisierung sind Projektentscheidungen.
 
 - Metrikabrufe lesen einen threadsicheren, konsistenten Snapshot ohne externe HTTP- oder Datenbankabfragen.

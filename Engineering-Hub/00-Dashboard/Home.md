@@ -33,6 +33,8 @@ Startseite der Wissensbasis für Agentic Coding. Alle Links sind interne Obsidia
 ### Standards
 - [[02-Standards/README]] – Ordnung und Pflege der Standards
 - Allgemein: [[02-Standards/General/architecture-principles]] · [[02-Standards/General/clean-code]] · [[02-Standards/General/security-principles]]
+- [[02-Standards/General/cloud-native-standards|Cloud-native Engineering Standards]] – verbindliche Basis für Kommunikation und Servicebetrieb
+- [[02-Standards/Cloud-Design-Patterns/README|Cloud Design Patterns]] – bedingte Pflichten, optionale Architekturpatterns und passende Prüfpunkte
 - Java & Spring: [[02-Standards/Java/java-standards]] · [[02-Standards/Java/spring-boot-standards]] · [[02-Standards/Java/maven-standards]]
 - Schnittstellen & Daten: [[02-Standards/API/rest-standards]] · [[02-Standards/Data/postgresql-standards]] · [[02-Standards/Messaging/kafka-standards]]
 - Frontend: [[02-Standards/Frontend/angular-typescript-standards]]

@@ -48,6 +48,8 @@ Architektur besteht aus den Entscheidungen, die teuer sind, sie zu ändern. Alle
 
 ## Einstieg in dieses Vault
 
+Für verteilte Aufrufe, Messaging, Konsistenz, Last und Migrationen: [[02-Standards/Cloud-Design-Patterns/README|Cloud Design Patterns]]. Die [[02-Standards/General/cloud-native-standards|Cloud-native Basisstandards]] sind verbindlich, Pattern-Pflichten greifen bei erfüllter Bedingung; optionale Architekturpatterns werden problembezogen gewählt. Nicht jede Anwendung benötigt alle Patterns.
+
 Prinzipien: [[02-Standards/General/architecture-principles]] · Ablauf: [[04-Workflows/architecture-design]] · Vorlage: [[07-Templates/adr-template]] · Rolle: [[01-Agents/software-architect]]
 
 **Siehe auch:** [[06-Knowledge/README]]
