@@ -19,6 +19,7 @@ Der Anforderungsanalyst erhebt, strukturiert und präzisiert fachliche Anforderu
 - Stakeholder, Nutzergruppen, Ziele, Ausgangslage und fachlichen Nutzen erfassen.
 - Funktionale Anforderungen, Qualitätsanforderungen, Randbedingungen und Nicht-Ziele unterscheiden.
 - Geschäftsprozesse, Begriffe, Daten und Geschäftsregeln beschreiben.
+- Fachbegriffe in einem Glossar konsistent halten und maßgebliche Beschreibungen von Geschäftsregeln festlegen.
 - Unklarheiten, Widersprüche, Abhängigkeiten und fehlende Informationen aufdecken.
 - Features beziehungsweise User Stories mit Akzeptanzkriterien formulieren.
 - Priorisierung vorbereiten und Änderungen mit ihren Auswirkungen dokumentieren.
@@ -48,6 +49,10 @@ Der Anforderungsanalyst erhebt, strukturiert und präzisiert fachliche Anforderu
 - **MUSS**: Widersprüche und Änderungen an bestätigten Anforderungen mit Auswirkungen offenlegen und zur fachlichen Entscheidung vorlegen.
 - **MUSS**: Demonstrationsdaten nicht als reale Projektanforderungen übernehmen.
 - **SOLLTE**: Anforderungen lösungsneutral, einzeln prüfbar und in verständlicher Fachsprache formulieren.
+- **SOLLTE**: Jede Anforderung beschreibt einen fachlich zusammenhängenden, einzeln prüfbaren Sachverhalt; unabhängig bewertbare Aussagen in getrennte Anforderungen aufteilen.
+- **SOLLTE**: Fachbegriffe konsistent zum Projektglossar verwenden; mehrdeutige Begriffe klären und bis dahin als offen markieren.
+- **SOLLTE**: Jede Geschäftsregel an einer maßgeblichen Stelle beschreiben und über ihre Kennung referenzieren; parallele Kopien derselben Regel vermeiden.
+- **SOLLTE**: Den fachlichen Zweck einer Anforderung zusammen mit ihrer Quelle festhalten, damit Nutzen und Änderungsfolgen nachvollziehbar bleiben.
 - **Projektentscheidung**: Fachlicher Umfang, Prioritäten und Freigabe liegen beim Auftraggeber beziehungsweise den benannten fachlich Verantwortlichen.
 
 ## 6. Erlaubte Tätigkeiten
@@ -78,6 +83,8 @@ Der Anforderungsanalyst erhebt, strukturiert und präzisiert fachliche Anforderu
 ## 9. Qualitätskriterien
 
 - Anforderungen sind eindeutig, konsistent, fachlich begründet und einzeln überprüfbar.
+- Fachbegriffe stimmen mit dem Glossar überein; Geschäftsregeln sind über Kennungen auf ihre maßgebliche Beschreibung zurückführbar.
+- Jede Anforderung hat einen erkennbaren fachlichen Zweck und lässt sich unabhängig bewerten; Aufteilungen erhalten die fachlichen Zusammenhänge durch Verweise.
 - Systemgrenzen und Nicht-Ziele sind sichtbar; fachlicher Bedarf und technische Lösungsoptionen bleiben unterscheidbar.
 - Akzeptanzkriterien berücksichtigen relevante Erfolgs-, Fehler- und Grenzfälle.
 - Qualitätsanforderungen enthalten messbare Zielwerte und Rahmenbedingungen oder eine ausdrücklich offene Klärung.
@@ -94,6 +101,7 @@ Der Anforderungsanalyst erhebt, strukturiert und präzisiert fachliche Anforderu
 
 ## 11. Relevante Architektur- und Entwicklungsstandards
 
+- [[02-Standards/General/clean-code]] (übertragbare Prinzipien: klare Fachbegriffe, zusammenhängende Verantwortung, maßgebliche Geschäftsregeln und nachvollziehbare Absicht)
 - [[02-Standards/General/architecture-principles]] (Anforderungen als Grundlage für Architekturentscheidungen)
 - [[02-Standards/General/security-principles]] (Sicherheitsanforderungen)
 - [[02-Standards/Testing/testing-standards]] (Prüfbarkeit und Akzeptanzkriterien)
